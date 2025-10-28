@@ -1,20 +1,17 @@
-import React, { useContext } from "react";
+import { useContext } from "react";
 
 import { ProductProvider, ProductContext } from "./ProductContext/ProductContext";
+import Home from "./pages/Home/Home";
+
 import './App.css';
 
 const ProductList = () => {
   const { products } = useContext(ProductContext);
+  console.log("product ", products);
 
   return (
     <div>
-      <h3 className='text-blue-400 mx-2'>Sai Multi Export Import </h3>
-      <h2>Product List</h2>
-      {products.map((p) => (
-        <div key={p.id}>
-          <strong>{p.name}</strong> - ${p.price}
-        </div>
-      ))}
+      
     </div>
   );
 };
@@ -22,6 +19,7 @@ const ProductList = () => {
 const App = () => {
   return (
     <ProductProvider>
+      <Home />
       <ProductList />
     </ProductProvider>
   );
