@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Mouse",
+    "price": 29.99,
+    "category": "Electronics"
+  },
+  {
+    "id": 2,
+    "name": "Bluetooth Headphones",
+    "price": 59.99,
+    "category": "Audio"
+  }
+]
