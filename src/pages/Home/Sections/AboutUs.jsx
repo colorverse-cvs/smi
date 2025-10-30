@@ -63,7 +63,7 @@ export default function HomeAboutUsSection() {
             <img
               src="/images/setting-icon.svg"
               alt="Global reach"
-              className="w-24 h-24 object-contain opacity-80"
+              className="w-50 h-40 object-contain opacity-80"
             />
           </div>
 
@@ -78,7 +78,7 @@ export default function HomeAboutUsSection() {
             <img
               src="/images/fast-shipping-icon.svg"
               alt="Shipping"
-              className="w-24 h-24 object-contain opacity-80"
+              className="w-50 h-40 object-contain opacity-80"
             />
           </div>
 
@@ -93,7 +93,7 @@ export default function HomeAboutUsSection() {
             <img
               src="/images/setting-gear.svg"
               alt="Certified Products"
-              className="w-24 h-24 object-contain opacity-80"
+              className="w-50 h-40 object-contain opacity-80"
             />
           </div>
         </div>

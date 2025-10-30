@@ -1,7 +1,10 @@
+
+import { Link } from "react-router-dom";
+
 export default function Footer() {
   return (
     <footer className="bg-[#0f0f0f] text-gray-300 pt-12 pb-6">
-      <div className="max-w-7xl mx-auto px-6 lg:px-10 grid grid-cols-1 md:grid-cols-4 gap-10">
+      <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-10">
 
         {/* Left Section - Logo and Name */}
         <div>
@@ -19,10 +22,10 @@ export default function Footer() {
         <div>
           <h3 className="text-white font-semibold mb-3">Company</h3>
           <ul className="space-y-2 text-sm">
-            <li><a href="#home" className="hover:text-blue-500 transition">Home</a></li>
-            <li><a href="#about" className="hover:text-blue-500 transition">About SMI</a></li>
-            <li><a href="#services" className="hover:text-blue-500 transition">Services</a></li>
-            <li><a href="#contact" className="hover:text-blue-500 transition">Contact us</a></li>
+            <li><Link to="/" className="hover:text-blue-500 transition">Home</Link></li>
+            <li><Link to="/about" className="hover:text-blue-500 transition">About SMI</Link></li>
+            <li><Link to="/services" className="hover:text-blue-500 transition">Services</Link></li>
+            <li><Link to="/contact" className="hover:text-blue-500 transition">Contact us</Link></li>
           </ul>
         </div>
 
@@ -48,17 +51,18 @@ export default function Footer() {
             Get the latest updates on global trade trends, industry insights, and exclusive offers
             straight to your inbox. No spam, just valuable updates.
           </p>
-          <form className="flex">
+
+          <form className="flex w-full">
             <input
               type="email"
               placeholder="Enter your email address"
-              className="flex-1 px-3 py-2 rounded-l-md bg-gray-700 text-gray-200 text-sm focus:outline-none"
+              className="flex-1 px-4 py-3 rounded-l-md bg-[#2B2B2B] text-gray-200 text-sm focus:outline-none placeholder-gray-400 w-full"
             />
             <button
               type="submit"
-              className="bg-blue-600 text-white px-4 py-2 rounded-r-md text-sm font-medium hover:bg-blue-700 transition"
+              className="bg-blue-600 text-white px-4 py-2 rounded-r-md text-sm font-medium hover:bg-blue-700 transition whitespace-nowrap"
             >
-              Subscribe now
+              Subscribe
             </button>
           </form>
         </div>

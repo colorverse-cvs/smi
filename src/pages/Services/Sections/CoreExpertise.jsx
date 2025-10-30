@@ -10,28 +10,30 @@ export default function CoreExpertiseSection() {
   ];
 
   return (
-    <section className="bg-[#111111] text-white py-16 px-6 md:px-12 lg:px-24">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+    <section className="bg-[#1A1A1A] text-white py-28 px-6 md:px-12 lg:px-24">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
         {/* Left Content */}
         <div>
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">Core Expertise</h2>
-          <p className="text-gray-300 mb-4 leading-relaxed">
+          <h2 className="text-4xl md:text-5xl font-extrabold mb-8">
+            Core Expertise
+          </h2>
+          <p className="text-gray-300 mb-5 leading-relaxed text-base md:text-lg">
             We connect businesses worldwide with dependable import and export
             solutions. Backed by decades of expertise and a strong global
             network, we serve as your trusted partner in expanding international
             markets.
           </p>
-          <p className="text-gray-300 leading-relaxed">
+          <p className="text-gray-300 leading-relaxed text-base md:text-lg">
             Our specialization spans critical global trade sectors, including:
           </p>
         </div>
 
         {/* Right Expertise Pills */}
-        <div className="flex flex-wrap gap-4">
+        <div className="flex flex-wrap gap-5">
           {sectors.map((item, index) => (
             <span
               key={index}
-              className="border border-blue-600 text-white px-5 py-2 rounded-full text-sm md:text-base hover:bg-blue-600 transition-all duration-300"
+              className="border border-blue-500 text-white px-8 py-4 rounded-full text-base font-medium hover:bg-blue-600 hover:border-blue-600 transition-all duration-300"
             >
               {item}
             </span>
