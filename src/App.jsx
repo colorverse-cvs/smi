@@ -1,7 +1,11 @@
 import { useContext } from "react";
 
 import { ProductProvider, ProductContext } from "./ProductContext/ProductContext";
-import Home from "./pages/Home/Home";
+// import Home from "./pages/Home/Home";
+// import AboutUs from "./pages/AboutUs/AboutUs";
+// import Service from "./pages/Services/Service";
+import ContactUs from "./pages/ContactUs/Contact";
+
 import Navbar from "./components/Navbar";
 import Footer from "./CommonSections/Footer";
 
@@ -22,7 +26,10 @@ const App = () => {
   return (
     <ProductProvider>
       <Navbar />
-      <Home />
+      {/* <Home /> */}
+      {/* <AboutUs/> */}
+      {/* <Service /> */}
+      <ContactUs />
       <ProductList />
       <Footer />
     </ProductProvider>
