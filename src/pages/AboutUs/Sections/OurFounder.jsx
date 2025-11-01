@@ -4,7 +4,7 @@ export default function OurFounderSection() {
       <div className="flex flex-col md:flex-row items-start justify-between gap-16 max-w-7xl mx-auto">
         {/* Left Side - Text */}
         <div className="w-full md:w-1/2">
-          <h2 className="text-4xl md:text-5xl font-bold mb-8 text-[#111111]">
+          <h2 className="text-4xl md:text-4xl font-semibold mb-8 text-[#111111]">
             Our Founders
           </h2>
           <p className="text-gray-700 mb-5 leading-relaxed text-lg">
@@ -28,7 +28,7 @@ export default function OurFounderSection() {
         </div>
 
         {/* Right Side - Founder Cards */}
-        <div className="w-full md:w-1/2 bg-white rounded-3xl shadow-sm p-10 flex flex-col md:flex-row items-center justify-center gap-10">
+        <div className="w-full md:w-1/2 bg-white rounded-3xl shadow-sm py-14 flex flex-col md:flex-row items-center justify-center gap-10">
           {/* Founder 1 */}
           <div className="text-center">
             <img
