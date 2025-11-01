@@ -6,17 +6,17 @@ export default function Footer() {
       {/* Main Flex Layout */}
       <div className="max-w-7xl mx-auto px-12 flex flex-col md:flex-row justify-between gap-12">
 
-        {/* Left Section - Logo and Name */}
-        <div className="flex-shrink-0 w-full md:w-1/5 flex flex-col items-center md:items-start text-center md:text-left">
-          <img
-            src="/icons/sai-multy-icon-footer.svg"
-            alt="Sai Multy International"
-            className="h-20 w-auto mb-2 mx-auto md:mx-0"
-          />
-          <h2 className="text-white text-xl font-semibold leading-tight whitespace-nowrap">
-            Sai Multy International
-          </h2>
-        </div>
+      {/* Left Section - Logo and Name */}
+      <div className="flex-shrink-0 w-full md:w-1/5 flex flex-col items-start text-left">
+        <img
+          src="/icons/sai-multy-icon-footer.svg"
+          alt="Sai Multy International"
+          className="h-20 w-auto mb-2"
+        />
+        <h2 className="text-white text-xl font-semibold leading-tight whitespace-nowrap">
+          Sai Multy International
+        </h2>
+      </div>
 
         {/* Company Links */}
         <div className="w-full md:w-1/6">
