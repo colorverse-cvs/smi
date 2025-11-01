@@ -11,14 +11,13 @@ import Inquiry from "./pages/Inquiry/Inquiry";
 
 import Navbar from "./components/Navbar";
 import Footer from "./CommonSections/Footer";
+import ScrollToTop from "./components/ScrollToTop"; 
 
 import "./App.css";
 
-// Optional ProductList (for debugging or future UI)
 const ProductList = () => {
   const { products } = useContext(ProductContext);
   console.log("product ", products);
-
   return <div>{/* You can render product cards here later */}</div>;
 };
 
@@ -26,11 +25,12 @@ const App = () => {
   return (
     <ProductProvider>
       <Router>
-        {/* Navbar stays fixed at the top */}
+        {/* ✅ Scrolls to top on every route change */}
+        <ScrollToTop />
+
         <Navbar />
 
-        {/* Page content (only one route at a time) */}
-        <div className="pt-16"> {/* add padding to avoid overlap with fixed navbar */}
+        <div className="pt-16">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<AboutUs />} />
@@ -39,11 +39,9 @@ const App = () => {
             <Route path="/inquiry" element={<Inquiry />} />
           </Routes>
 
-          {/* Optional: Product debug component */}
           <ProductList />
         </div>
 
-        {/* Footer stays fixed at bottom */}
         <Footer />
       </Router>
     </ProductProvider>
