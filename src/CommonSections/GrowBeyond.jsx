@@ -1,14 +1,13 @@
 export default function GrowBeyondSection() {
   return (
-    <div  style={{ backgroundImage: "url('/images/grow-beyond.svg')" }}>
     <section
       className="relative w-full h-[70vh] md:h-[80vh] bg-cover bg-center bg-no-repeat flex items-center"
-     
+      style={{ backgroundImage: "url('/images/grow-beyond.svg')" }}
     >
       {/* Content Overlay - Left Text */}
       <div className="relative z-10 w-full max-w-7xl mx-auto flex items-center">
         <div className="pl-8 md:pl-12 lg:pl-20 text-center md:text-left">
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-gray-900 leading-tight">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold text-gray-900">
             Let's Grow Beyond<br />
             Borders
           </h2>
@@ -34,6 +33,5 @@ export default function GrowBeyondSection() {
         </div>
       </div>
     </section>
-    </div>
   );
 }

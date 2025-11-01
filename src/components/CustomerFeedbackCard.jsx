@@ -2,7 +2,7 @@ export default function CustomerFeedbackCard({ feedback }) {
   return (
     <div className="bg-white rounded-2xl p-8 shadow-sm hover:shadow-md transition-shadow duration-300">
       {/* Feedback text */}
-      <p className="text-gray-900 text-base md:text-lg leading-relaxed mb-8">
+      <p className="text-gray-900 text-base leading-relaxed mb-8">
         {feedback.text}
       </p>
 
@@ -32,9 +32,9 @@ export default function CustomerFeedbackCard({ feedback }) {
           </div>
 
           {/* Name + Company */}
-          <p className="text-gray-900 font-semibold text-sm md:text-base">
+          <p className="text-sm md:text-base">
             {feedback.name}
-            <span className="text-gray-600 font-normal">, {feedback.company}</span>
+            <span className="font-normal">, {feedback.company}</span>
           </p>
         </div>
       </div>

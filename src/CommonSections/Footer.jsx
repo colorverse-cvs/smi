@@ -1,13 +1,13 @@
-
 import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
     <footer className="bg-[#0f0f0f] text-gray-300 pt-12 pb-6">
-      <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-10">
+      {/* Main Flex Layout */}
+      <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between gap-12">
 
         {/* Left Section - Logo and Name */}
-        <div>
+        <div className="flex-shrink-0 w-full md:w-1/5">
           <img
             src="/icons/sai-multy-icon-footer.svg"
             alt="Sai Multy International"
@@ -19,7 +19,7 @@ export default function Footer() {
         </div>
 
         {/* Company Links */}
-        <div>
+        <div className="w-full md:w-1/6">
           <h3 className="text-white font-semibold mb-3">Company</h3>
           <ul className="space-y-2 text-sm">
             <li><Link to="/" className="hover:text-blue-500 transition">Home</Link></li>
@@ -29,8 +29,8 @@ export default function Footer() {
           </ul>
         </div>
 
-        {/* Contact Info */}
-        <div>
+        {/* Contact Info - slightly shifted left */}
+        <div className="w-full md:w-1/6 md:ml-[-30px]">
           <h3 className="text-white font-semibold mb-3">Contact Us</h3>
           <ul className="space-y-2 text-sm">
             <li className="flex items-center gap-2">
@@ -44,8 +44,8 @@ export default function Footer() {
           </ul>
         </div>
 
-        {/* Newsletter */}
-        <div>
+        {/* Newsletter (wider section) */}
+        <div className="w-full md:flex-1">
           <h3 className="text-white font-semibold mb-3">Join the Newsletter</h3>
           <p className="text-sm text-gray-400 mb-4">
             Get the latest updates on global trade trends, industry insights, and exclusive offers
@@ -56,20 +56,20 @@ export default function Footer() {
             <input
               type="email"
               placeholder="Enter your email address"
-              className="flex-1 px-4 py-3 rounded-l-md bg-[#2B2B2B] text-gray-200 text-sm focus:outline-none placeholder-gray-400 w-full"
+              className="flex-1 px-4 py-3 rounded-l-md bg-[#2B2B2B] text-gray-200 text-sm focus:outline-none placeholder-gray-400"
             />
             <button
               type="submit"
               className="bg-blue-600 text-white px-4 py-2 rounded-r-md text-sm font-medium hover:bg-blue-700 transition whitespace-nowrap"
             >
-              Subscribe
+              Subscribe now
             </button>
           </form>
         </div>
       </div>
 
       {/* Bottom Footer */}
-      <div className="max-w-7xl mx-auto mt-10 px-6 lg:px-10 border-t border-gray-700 pt-4 flex flex-col md:flex-row justify-between items-center gap-4">
+      <div className="max-w-7xl mx-auto mt-10 px-6 border-t border-gray-700 pt-4 flex flex-col md:flex-row justify-between items-center gap-4">
         <p className="text-sm text-gray-400">
           © 2025 <span className="font-semibold text-white">Sai Multy International</span>. All rights reserved.
         </p>

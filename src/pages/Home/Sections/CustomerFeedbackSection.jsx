@@ -31,10 +31,10 @@ export default function CustomerFeedbackSection({ feedbacks }) {
     <section className="bg-[#f5f5f5] py-20 px-6">
       {/* Heading */}
       <div className="text-center max-w-3xl mx-auto mb-14">
-        <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-3">
+        <h2 className="text-3xl md:text-4xl font-semibold text-gray-900 mb-3">
           What Our Customers Say
         </h2>
-        <p className="text-gray-600 text-base md:text-lg">
+        <p className="text-gray-600 text-base">
           Trusted by global partners across industries — from agriculture to healthcare to technology. <br />
           Here's why businesses choose Sai Maulty International.
         </p>
