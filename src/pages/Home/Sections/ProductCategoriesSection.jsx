@@ -7,7 +7,7 @@ const products = [
     title: "Chemicals & Fertilizers",
     description:
       "Connecting businesses with advanced consumer and industrial electronics sourced from trusted global manufacturers.",
-    image: "/images/pharma-cat-poster.png"
+    image: "/images/chemical-cat-poster-1.png"
   },
   {
     id: 2,
@@ -21,14 +21,14 @@ const products = [
     title: "Chemicals & Fertilizers",
     description:
       "Connecting businesses with advanced consumer and industrial electronics sourced from trusted global manufacturers.",
-    image: "/images/pharma-cat-poster.png"
+    image: "/images/chemical-cat-poster-2.png"
   },
   {
     id: 4,
     title: "Agriculture",
     description:
       "Providing a wide range of essential Agriculture Products to support global food production and farming enterprises.",
-    image: "/images/pharma-cat-poster.png"
+    image: "/images/agriculture-cat-poster.png"
   },
   
 ];
