@@ -29,16 +29,17 @@ export default function CoreExpertiseSection() {
         </div>
 
         {/* Right Expertise Pills */}
-        <div className="flex flex-wrap gap-5">
+        <div className="flex flex-col md:flex-wrap md:flex-row gap-4 md:gap-5">
           {sectors.map((item, index) => (
             <span
               key={index}
-              className="border border-blue-500 text-white px-8 py-4 rounded-full text-base font-medium hover:bg-blue-600 hover:border-blue-600 transition-all duration-300"
+              className="border border-blue-500 text-white px-8 py-3 rounded-full text-base font-medium text-center hover:bg-blue-600 hover:border-blue-600 transition-all duration-300"
             >
               {item}
             </span>
           ))}
         </div>
+
       </div>
     </section>
   );

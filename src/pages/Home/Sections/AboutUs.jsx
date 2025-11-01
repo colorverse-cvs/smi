@@ -23,20 +23,20 @@ export default function HomeAboutUsSection() {
           {/* Founders Section */}
           <div>
             <h4 className="text-lg font-semibold mb-6">Our Founders</h4>
-            <div className="flex flex-col sm:flex-row gap-10 sm:gap-12">
-              
+
+            <div className="flex flex-row flex-wrap justify-center sm:justify-start gap-6 sm:gap-8">
               {/* Founder 1 */}
               <div className="text-center sm:text-left">
                 <div className="flex justify-center sm:justify-start">
                   <img
                     src="/images/owner-1.png"
                     alt="Jack Daniels"
-                    className="w-40 h-40 md:w-48 md:h-48 object-cover rounded-2xl"
+                    className="w-36 h-36 sm:w-40 sm:h-40 md:w-48 md:h-48 object-cover rounded-2xl"
                   />
                 </div>
                 <div className="mt-4">
-                  <p className="font-semibold text-lg">Jack Daniels</p>
-                  <p className="text-sm text-gray-400">Founder and CEO</p>
+                  <p className="font-semibold text-base sm:text-lg">Jack Daniels</p>
+                  <p className="text-sm text-gray-400">Founder, and CEO</p>
                 </div>
               </div>
 
@@ -46,17 +46,18 @@ export default function HomeAboutUsSection() {
                   <img
                     src="/images/owner-2.png"
                     alt="Mary Sitaraman"
-                    className="w-40 h-40 md:w-48 md:h-48 object-cover rounded-2xl"
+                    className="w-36 h-36 sm:w-40 sm:h-40 md:w-48 md:h-48 object-cover rounded-2xl"
                   />
                 </div>
                 <div className="mt-4">
-                  <p className="font-semibold text-lg">Mary Sitaraman</p>
-                  <p className="text-sm text-gray-400">Co-Founder and CTO</p>
+                  <p className="font-semibold text-base sm:text-lg">Mary Sitaraman</p>
+                  <p className="text-sm text-gray-400">Co-Founder, and CTO</p>
                 </div>
               </div>
-
             </div>
           </div>
+
+          
         </div>
 
         {/* --- Right Feature Boxes --- */}
