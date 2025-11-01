@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className="bg-[#0f0f0f] text-gray-300 pt-12 pb-6">
       {/* Main Flex Layout */}
-      <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between gap-12">
+      <div className="max-w-7xl mx-auto px-12 flex flex-col md:flex-row justify-between gap-12">
 
         {/* Left Section - Logo and Name */}
         <div className="flex-shrink-0 w-full md:w-1/5">
