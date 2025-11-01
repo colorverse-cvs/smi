@@ -16,10 +16,10 @@ export default function HomeIntroBanner() {
           </p>
 
           <div className="mt-6 flex flex-row flex-wrap items-center gap-3 sm:gap-4">
-            <button className="px-4 py-2 sm:px-6 sm:py-3 border border-blue-600 text-blue-600 font-medium rounded-lg hover:bg-blue-700 hover:text-white transition text-sm sm:text-base">
+            <button className="px-4 py-2 sm:px-6 sm:py-3 border border-blue-600 text-blue-600 font-medium rounded-lg hover:bg-blue-700 hover:text-white transition text-sm sm:text-base cursor-pointer">
               Explore products
             </button>
-            <button className="px-4 py-2 sm:px-6 sm:py-3 bg-blue-600 text-white font-medium rounded-lg flex items-center gap-2 hover:bg-blue-700 transition text-sm sm:text-base">
+            <button className="px-4 py-2 sm:px-6 sm:py-3 bg-blue-600 text-white font-medium rounded-lg flex items-center gap-2 hover:bg-blue-700 transition text-sm sm:text-base cursor-pointer">
               Contact us
               <img
                 src="/icons/mail-icon.svg"

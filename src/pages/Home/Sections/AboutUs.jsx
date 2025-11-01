@@ -23,7 +23,7 @@ export default function HomeAboutUsSection() {
           </p>
 
           {/* Founders Section */}
-          <div>
+          <div className="py-12">
             <h4 className="text-lg font-semibold mb-4">Our Founders</h4>
             <div className="flex flex-col sm:flex-row gap-6">
               {/* Founder 1 */}
