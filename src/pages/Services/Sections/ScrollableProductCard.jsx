@@ -60,7 +60,7 @@ export default function ScrollableProductCardSection() {
         </div>
 
         {/* Right - Text Section */}
-        <div className="md:w-1/3 text-center md:flex md:flex-col md:justify-center">
+        <div className="md:w-1/3 md:flex md:flex-col md:justify-center">
           <div>
             <h2 className="text-3xl font-bold mb-4">Products</h2>
             <p className="text-gray-700 leading-relaxed text-base">
