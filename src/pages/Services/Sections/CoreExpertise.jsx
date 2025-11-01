@@ -14,7 +14,7 @@ export default function CoreExpertiseSection() {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
         {/* Left Content */}
         <div>
-          <h2 className="text-4xl md:text-5xl font-extrabold mb-8">
+          <h2 className="text-4xl md:text-4xl font-semibold mb-8">
             Core Expertise
           </h2>
           <p className="text-gray-300 mb-5 leading-relaxed text-base md:text-lg">

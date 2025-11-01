@@ -45,8 +45,8 @@ export default function Home() {
         <>
           <HomeIntroBanner /> 
           <HomeAboutUsSection />
-          <CustomerFeedbackSection feedbacks={feedbackData}/>
           <ProductCategoriesSection />
+          <CustomerFeedbackSection feedbacks={feedbackData}/>
           <GrowBeyondSection /> 
         </>
     );

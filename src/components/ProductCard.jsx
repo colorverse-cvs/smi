@@ -1,7 +1,7 @@
 export default function ProductCard({ item }) {
   return (
-    <div className="relative group rounded-2xl overflow-hidden w-full transition-transform duration-300 hover:-translate-y-2 cursor-pointer">
-      <div className="relative h-[320px] w-full">
+    <div className="relative group rounded-2xl overflow-hidden w-full max-w-[400px] transition-transform duration-300 hover:-translate-y-2">
+      <div className="relative h-[420px] w-full">
         {/* Product Image */}
         <img
           src={item.image}
@@ -22,20 +22,11 @@ export default function ProductCard({ item }) {
               className="bg-blue-600 hover:bg-gray-400 text-white p-2 rounded-lg transition"
               aria-label="Open product"
             >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-4 w-4"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                strokeWidth={2}
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M10 14L21 3m0 0v7m0-7h-7M5 5v14a2 2 0 002 2h14"
-                />
-              </svg>
+              <img
+                src="/icons/arrow-up-right.svg"
+                alt="Global reach"
+                className="h-4 w-4 cursor-pointer"
+              />
             </button>
           </div>
         </div>

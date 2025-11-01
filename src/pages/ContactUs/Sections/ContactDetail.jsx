@@ -1,6 +1,6 @@
 export default function ContactDetail() {
   return (
-    <section className="w-full flex flex-col md:flex-row items-stretch justify-between gap-10 px-6 md:px-10 lg:px-20 py-10">
+    <section className="w-full flex flex-col md:flex-row items-stretch justify-between gap-10 px-6 md:px-64 lg:px-64 py-10">
       {/* LEFT SIDE — Image Banner */}
       <div
         className="relative flex-1 rounded-xl overflow-hidden bg-cover bg-center min-h-[400px] md:min-h-[460px] flex flex-col justify-end text-white"
@@ -13,7 +13,7 @@ export default function ContactDetail() {
         <div className="relative z-10 p-8 md:p-12 flex flex-col justify-between h-full">
           {/* Text Section */}
           <div className="mt-auto">
-            <h2 className="text-2xl md:text-3xl font-bold mb-3">Contact us</h2>
+            <h2 className="text-2xl md:text-3xl font-semibold mb-3">Contact us</h2>
             <p className="text-sm md:text-base text-gray-200 leading-relaxed max-w-lg">
               We are deeply committed to delivering unparalleled service and
               unwavering support to ensure your experience exceeds expectations.

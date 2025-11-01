@@ -12,7 +12,7 @@ export default function Navbar() {
     <>
       {/* Navbar */}
       <nav className="w-full bg-white fixed top-0 left-0 z-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10 py-4 flex items-center justify-between">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10 py-4 flex items-center justify-between [padding-inline-end:unset]">
 
           {/* Mobile Menu Button */}
           <button
@@ -39,74 +39,79 @@ export default function Navbar() {
             </svg>
           </button>
 
-          {/* Left Links */}
-          <div className="hidden lg:flex items-center gap-6">
-            <Link
-              to="/"
-              className={`px-3 py-2 rounded-md font-medium transition ${
-                isActive("/")
-                  ? "bg-blue-600 text-white"
-                  : "text-black hover:text-blue-600"
-              }`}
-            >
-              Home
-            </Link>
+          {/* Desktop Navigation */}
+          <div className="hidden lg:flex items-center justify-center gap-12 w-full">
+            
+            {/* Left Links */}
+            <div className="flex items-center gap-12">
+              <Link
+                to="/"
+                className={`px-3 py-2 rounded-md font-medium transition ${
+                  isActive("/")
+                    ? "bg-blue-600 text-white"
+                    : "text-black hover:text-blue-600"
+                }`}
+              >
+                Home
+              </Link>
 
-            <Link
-              to="/about"
-              className={`px-3 py-2 rounded-md font-medium transition ${
-                isActive("/about")
-                  ? "bg-blue-600 text-white"
-                  : "text-black hover:text-blue-600"
-              }`}
+              <Link
+                to="/about"
+                className={`px-3 py-2 rounded-md font-medium transition ${
+                  isActive("/about")
+                    ? "bg-blue-600 text-white"
+                    : "text-black hover:text-blue-600"
+                }`}
+              >
+                About SMI
+              </Link>
+            </div>
+
+            {/* Center Logo */}
+            <div
+              className="flex-shrink-0 flex justify-center cursor-pointer"
+              onClick={() => navigate("/")}
             >
-              About SMI
-            </Link>
+              <img
+                src="/images/sai-multy-logo.svg"
+                alt="SMI Logo"
+                className="h-20 w-auto"
+              />
+            </div>
+
+            {/* Right Links */}
+            <div className="flex items-center gap-12">
+              <Link
+                to="/services"
+                className={`px-3 py-2 rounded-md font-medium transition ${
+                  isActive("/services")
+                    ? "bg-blue-600 text-white"
+                    : "text-black hover:text-blue-600"
+                }`}
+              >
+                Services
+              </Link>
+
+              <Link
+                to="/contact"
+                className={`px-3 py-2 rounded-md font-medium transition ${
+                  isActive("/contact")
+                    ? "bg-blue-600 text-white"
+                    : "text-black hover:text-blue-600"
+                }`}
+              >
+                Contact Us
+              </Link>
+
+              
+            </div>
           </div>
-
-          {/* Center Logo */}
-          <div
-            className="flex-shrink-0 flex justify-center cursor-pointer mx-6"
-            onClick={() => navigate("/")}
+          <button
+            onClick={() => navigate("/inquiry")}
+            className="border border-blue-600 text-blue-600 px-5 py-2 rounded-md font-medium hover:bg-blue-600 hover:text-white transition"
           >
-            <img
-              src="/images/sai-multy-logo.svg"
-              alt="SMI Logo"
-              className="h-20 w-auto"  // 👈 bigger logo (was h-14)
-            />
-          </div>
-
-          {/* Right Links */}
-          <div className="hidden lg:flex items-center gap-6">
-            <Link
-              to="/services"
-              className={`px-3 py-2 rounded-md font-medium transition ${
-                isActive("/services")
-                  ? "bg-blue-600 text-white"
-                  : "text-black hover:text-blue-600"
-              }`}
-            >
-              Services
-            </Link>
-
-            <Link
-              to="/contact"
-              className={`px-3 py-2 rounded-md font-medium transition ${
-                isActive("/contact")
-                  ? "bg-blue-600 text-white"
-                  : "text-black hover:text-blue-600"
-              }`}
-            >
-              Contact Us
-            </Link>
-
-            <button
-              onClick={() => navigate("/inquiry")}
-              className="border border-blue-600 text-blue-600 px-5 py-2 rounded-md font-medium hover:bg-blue-600 hover:text-white transition"
-            >
-              Inquiry
-            </button>
-          </div>
+            Inquiry
+          </button>
         </div>
 
         {/* Mobile Menu */}
@@ -137,7 +142,7 @@ export default function Navbar() {
                 navigate("/inquiry");
                 setMenuOpen(false);
               }}
-              className="bg-blue-600 text-white px-5 py-2 rounded-md font-medium hover:bg-blue-700 transition"
+              className="bg-blue-600 text-white px-5 py-2 rounded-md font-medium hover:bg-blue-700 transition cursor-pointer"
             >
               Inquiry
             </button>
@@ -145,8 +150,8 @@ export default function Navbar() {
         )}
       </nav>
 
-      {/* Add spacing below navbar */}
-      <div className="h-24"></div> {/* 👈 pushes page content down */}
+      {/* Spacer below navbar */}
+      <div className="h-24"></div>
     </>
   );
 }

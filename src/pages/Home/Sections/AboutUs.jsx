@@ -6,15 +6,13 @@ export default function HomeAboutUsSection() {
         {/* --- Left Content --- */}
         <div className="flex-1">
           {/* Heading */}
-          <h2 className="text-3xl md:text-4xl font-bold mb-3">
-            About Us
-          </h2>
-          <h3 className="text-3xl md:text-4xl font-extrabold text-blue-500 mb-6">
+          <h2 className="text-3xl md:text-4xl font-semibold mb-3">About Us</h2>
+          <h3 className="text-3xl md:text-4xl font-semibold text-blue-500 mb-6">
             Sai Multy International
           </h3>
 
           {/* Body Text */}
-          <p className="text-gray-300 leading-relaxed mb-10 max-w-2xl">
+          <p className="text-gray-300 leading-relaxed mb-7 max-w-2xl">
             We connect businesses worldwide with dependable import and export solutions. 
             Backed by decades of expertise and a strong global network, we specialize in 
             Agriculture, Pharmaceuticals, Minerals, and more. Our mission is simple — 
@@ -24,77 +22,94 @@ export default function HomeAboutUsSection() {
 
           {/* Founders Section */}
           <div>
-            <h4 className="text-lg font-semibold mb-4">Our Founders</h4>
-            <div className="flex flex-col sm:flex-row gap-6">
+            <h4 className="text-lg font-semibold mb-6">Our Founders</h4>
+            <div className="flex flex-col sm:flex-row gap-10 sm:gap-12">
+              
               {/* Founder 1 */}
               <div className="text-center sm:text-left">
-                <img
-                  src="/images/owner-1.png"
-                  alt="Jack Daniels"
-                  className="w-32 h-32 object-cover rounded-xl mb-3"
-                />
-                <p className="font-semibold">Jack Daniels</p>
-                <p className="text-sm text-gray-400">Founder and CEO</p>
+                <div className="flex justify-center sm:justify-start">
+                  <img
+                    src="/images/owner-1.png"
+                    alt="Jack Daniels"
+                    className="w-40 h-40 md:w-48 md:h-48 object-cover rounded-2xl"
+                  />
+                </div>
+                <div className="mt-4">
+                  <p className="font-semibold text-lg">Jack Daniels</p>
+                  <p className="text-sm text-gray-400">Founder and CEO</p>
+                </div>
               </div>
+
               {/* Founder 2 */}
               <div className="text-center sm:text-left">
-                <img
-                  src="/images/owner-2.png"
-                  alt="Mary Sitaraman"
-                  className="w-32 h-32 object-cover rounded-xl mb-3"
-                />
-                <p className="font-semibold">Mary Sitaraman</p>
-                <p className="text-sm text-gray-400">Co-Founder and CTO</p>
+                <div className="flex justify-center sm:justify-start">
+                  <img
+                    src="/images/owner-2.png"
+                    alt="Mary Sitaraman"
+                    className="w-40 h-40 md:w-48 md:h-48 object-cover rounded-2xl"
+                  />
+                </div>
+                <div className="mt-4">
+                  <p className="font-semibold text-lg">Mary Sitaraman</p>
+                  <p className="text-sm text-gray-400">Co-Founder and CTO</p>
+                </div>
               </div>
+
             </div>
           </div>
         </div>
 
         {/* --- Right Feature Boxes --- */}
-        <div className="flex-1 w-full bg-[#141414] rounded-2xl border border-gray-700 overflow-hidden">
+        <div className="flex-1 w-full bg-[#141414] rounded-2xl border border-gray-700 overflow-hidden flex flex-col justify-between h-full">
           {/* Feature 1 */}
-          <div className="flex justify-between items-center border-b border-gray-700 p-6">
+          <div className="flex justify-between items-center border-b border-gray-700 p-10">
             <div>
               <h4 className="font-semibold text-lg">Serving 50+ Countries</h4>
               <p className="text-gray-400 text-sm mt-2 max-w-xs">
                 Expanding trade networks across continents with trusted global partnerships.
               </p>
             </div>
-            <img
-              src="/images/setting-icon.svg"
-              alt="Global reach"
-              className="w-50 h-40 object-contain opacity-80"
-            />
+            <div className="flex items-end">
+              <img
+                src="/images/setting-icon.svg"
+                alt="Global reach"
+                className="w-50 h-40 object-contain opacity-80 -mb-15"
+              />
+            </div>
           </div>
 
           {/* Feature 2 */}
-          <div className="flex justify-between items-center border-b border-gray-700 p-6">
+          <div className="flex justify-between items-center border-b border-gray-700 p-10">
             <div>
               <h4 className="font-semibold text-lg">Fast & Secure Shipping</h4>
               <p className="text-gray-400 text-sm mt-2 max-w-xs">
                 Efficient logistics solutions ensuring timely and safe product deliveries.
               </p>
             </div>
-            <img
-              src="/images/fast-shipping-icon.svg"
-              alt="Shipping"
-              className="w-50 h-40 object-contain opacity-80"
-            />
+            <div className="flex items-end">
+              <img
+                src="/images/fast-shipping-icon.svg"
+                alt="Shipping"
+                className="w-50 h-40 object-contain opacity-80 -mb-10"
+              />
+            </div>
           </div>
 
           {/* Feature 3 */}
-          <div className="flex justify-between items-center p-6">
+          <div className="flex justify-between items-center p-10 mb-0">
             <div>
               <h4 className="font-semibold text-lg">Certified & Trusted Products</h4>
               <p className="text-gray-400 text-sm mt-2 max-w-xs">
                 Quality assurance backed by international certifications and compliance.
               </p>
             </div>
-            <img
-              src="/images/setting-gear.svg"
-              alt="Certified Products"
-              className="w-50 h-40 object-contain opacity-80"
-            />
+            <div className="flex items-end">
+              <img
+                src="/images/setting-gear.svg"
+                alt="Certified Products"
+                className="w-50 h-40 object-contain opacity-80 -mb-11"
+              />
+            </div>
           </div>
         </div>
       </div>

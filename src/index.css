@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+:root{
+  font-family: "Poppins", sans-serif;
+}
+
 /* Hide scrollbar globally for scroll containers */
 .scrollbar-hide::-webkit-scrollbar {
   display: none;
