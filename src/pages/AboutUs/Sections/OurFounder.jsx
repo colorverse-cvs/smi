@@ -7,19 +7,19 @@ export default function OurFounderSection() {
           <h2 className="text-4xl md:text-4xl font-semibold mb-8 text-[#111111]">
             Our Founders
           </h2>
-          <p className="text-gray-700 mb-5 leading-relaxed text-lg">
+          <p className="text-gray-700 mb-5 leading-relaxed text-base md:text-lg">
             The driving force behind Sai Maulty International lies in the shared
             vision of our Founder,{" "}
             <span className="font-semibold text-black">Jack Daniels</span> and
             Co-Founder,{" "}
             <span className="font-semibold text-black">Mary Sitaraman</span>.
           </p>
-          <p className="text-gray-700 mb-5 leading-relaxed text-lg">
+          <p className="text-gray-700 mb-5 leading-relaxed text-base md:text-lg">
             Together, they bring decades of combined experience in global trade,
             logistics, and business strategy — united by a single mission: to
             redefine reliability and trust in international commerce.
           </p>
-          <p className="text-gray-700 leading-relaxed text-lg">
+          <p className="text-gray-700 leading-relaxed text-base md:text-lg">
             Through their guidance, Sai Maulty International has evolved from a
             promising venture into a trusted global network that connects
             industries, strengthens trade relationships, and delivers value
