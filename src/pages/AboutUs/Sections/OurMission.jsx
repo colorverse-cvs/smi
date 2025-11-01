@@ -1,10 +1,10 @@
 export default function OurMissionSection() {
   return (
-    <section className="w-full bg-white py-16 px-6 md:px-12 lg:px-20">
+    <section className="w-full bg-white py-16 px-6 md:px-12">
       <div className="flex flex-col md:flex-row items-center justify-between gap-12">
         
         {/* Left: Text Section */}
-        <div className="w-full md:w-1/2 md:ml-24 lg:ml-32 md:pe-44">
+        <div className="w-full md:w-1/2 md:ml-24 lg:ml-9 md:pe-12">
           <h2 className="text-3xl md:text-4xl font-semibold text-gray-900 mb-6">
             Our Mission
           </h2>

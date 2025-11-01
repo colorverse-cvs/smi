@@ -23,7 +23,7 @@ export default function InquiryDetatilSection() {
   ];
 
   return (
-    <section className="w-full flex flex-col md:flex-row items-stretch justify-between gap-10 px-6 md:px-60 lg:px-60 py-10">
+    <section className="w-full flex flex-col md:flex-row items-stretch justify-between gap-10 px-6 md:px-60 lg:px-19 py-10">
       {/* LEFT SIDE — Image Banner */}
       <div
         className="relative flex-1 rounded-xl overflow-hidden bg-cover bg-center min-h-[400px] md:min-h-[460px] flex flex-col justify-end text-white"

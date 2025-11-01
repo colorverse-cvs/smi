@@ -1,6 +1,6 @@
 export default function OurFounderSection() {
   return (
-    <section className="w-full bg-[#F6F6F7] py-24 px-6 md:px-12 lg:px-24">
+    <section className="w-full bg-[#F6F6F7] py-24 px-6 md:px-12 lg:px-20">
       <div className="flex flex-col md:flex-row items-start justify-between gap-16 max-w-7xl mx-auto">
         {/* Left Side - Text */}
         <div className="w-full md:w-1/2">

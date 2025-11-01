@@ -1,7 +1,7 @@
 export default function OurCommitmentSection() {
   return (
-    <section className="w-full bg-[#0D0D0D] text-white py-16 px-6 md:px-12 lg:px-20">
-      <div className="flex flex-col md:flex-row items-center justify-between gap-12 mx-32">
+    <section className="w-full bg-[#0D0D0D] text-white py-16 px-2">
+      <div className="flex flex-col md:flex-row items-center justify-between gap-12 mx-20">
         
         {/* Left: Feature Cards */}
         {/* --- Right Feature Boxes --- */}
