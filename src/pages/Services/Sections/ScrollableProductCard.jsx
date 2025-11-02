@@ -1,4 +1,4 @@
-import ProductCard from "../../../components/ProductCard";
+import ServiceProductCard from "../../../components/ServiceProductCard";
 
 export default function ScrollableProductCardSection() {
   const products = [
@@ -47,14 +47,14 @@ export default function ScrollableProductCardSection() {
           {/* Desktop: Grid with hidden vertical scroll */}
           <div className="hidden md:grid grid-cols-2 gap-6 max-h-[80vh] overflow-y-auto pr-2 scrollbar-hide">
             {products.map((item) => (
-              <ProductCard key={item.id} item={item} />
+              <ServiceProductCard key={item.id} item={item} />
             ))}
           </div>
 
           {/* Mobile: 2 cards per row */}
           <div className="md:hidden grid grid-cols-2 gap-4">
             {products.map((item) => (
-              <ProductCard key={item.id} item={item} />
+              <ServiceProductCard key={item.id} item={item} />
             ))}
           </div>
         </div>
