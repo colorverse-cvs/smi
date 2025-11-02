@@ -6,7 +6,7 @@ export default function GrowBeyondSection() {
     >
       {/* Content Overlay - Left Text */}
       <div className="w-full max-w-7xl mx-auto flex items-center">
-        <div className="md:pl-12 text-center md:text-left">
+        <div className="ps-6 md:ps-0 md:pl-12 md:text-left">
           <h2 className="text-3xl sm:text-4xl md:text-4xl font-semibold text-gray-900">
             Let's Grow Beyond<br />
             Borders

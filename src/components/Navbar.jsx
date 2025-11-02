@@ -10,38 +10,28 @@ export default function Navbar() {
 
   return (
     <>
-      {/* Navbar */}
+      {/* DESKTOP NAVBAR */}
       <nav className="w-full bg-white fixed top-0 left-0 z-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10 py-4 flex items-center justify-between [padding-inline-end:unset]">
-
-          {/* Mobile Menu Button */}
-          <button
-            onClick={() => setMenuOpen(!menuOpen)}
-            className="lg:hidden p-2 border rounded-md"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-6 w-6"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10 py-4 flex items-center justify-between [padding-inline-end:unset] shadow-[0_2px_6px_rgba(0,0,0,0.1)] lg:shadow-none">
+          {/* ===== MOBILE VIEW ===== */}
+          <div className="flex items-center justify-between w-full lg:hidden">
+            {/* Left: Logo */}
+            <div
+              className="cursor-pointer flex-shrink-0"
+              onClick={() => navigate("/")}
             >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d={
-                  menuOpen
-                    ? "M6 18L18 6M6 6l12 12"
-                    : "M4 6h16M4 12h16M4 18h16"
-                }
+              <img
+                src="/images/sai-multy-logo.svg"
+                alt="SMI Logo"
+                className="h-14 w-auto"
               />
-            </svg>
-          </button>
+            </div>
+
+          
+          </div>
 
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center justify-center gap-12 w-full">
-            
             {/* Left Links */}
             <div className="flex items-center gap-12">
               <Link
@@ -102,19 +92,18 @@ export default function Navbar() {
               >
                 Contact Us
               </Link>
-
-              
             </div>
           </div>
+
           <button
             onClick={() => navigate("/inquiry")}
-            className="border border-blue-600 text-blue-600 px-5 py-2 rounded-md font-medium hover:bg-blue-600 hover:text-white transition"
+            className="me-4 md:me-0 border border-blue-600 text-blue-600 px-5 py-2 rounded-md font-medium hover:bg-blue-600 hover:text-white transition"
           >
             Inquiry
           </button>
         </div>
 
-        {/* Mobile Menu */}
+        {/* Mobile Dropdown (hamburger menu) */}
         {menuOpen && (
           <div className="lg:hidden flex flex-col items-center gap-4 py-4 bg-white border-t">
             {[
@@ -150,8 +139,84 @@ export default function Navbar() {
         )}
       </nav>
 
-      {/* Spacer below navbar */}
-      <div className="h-24"></div>
+      {/* Spacer for Desktop Navbar */}
+      <div className="h-24 hidden lg:block"></div>
+
+      <div className="lg:hidden fixed bottom-0 left-0 w-full bg-white shadow-[0_-2px_8px_rgba(0,0,0,0.1)] flex justify-around items-center py-2 z-50">
+      <Link
+        to="/"
+        className={`flex flex-col items-center text-xs ${
+          isActive("/") ? "text-blue-600" : "text-gray-600"
+        }`}
+      >
+        <img
+          src={
+            isActive("/")
+              ? "/icons/home-page-icon-blue.svg"
+              : "/icons/home-page-icon.svg"
+          }
+          alt="home"
+          className="w-6 h-6 mb-1"
+        />
+        Home
+      </Link>
+
+      <Link
+        to="/about"
+        className={`flex flex-col items-center text-xs ${
+          isActive("/about") ? "text-blue-600" : "text-gray-600"
+        }`}
+      >
+        <img
+          src={
+            isActive("/about")
+              ? "/icons/about-page-icon-blue.svg"
+              : "/icons/about-page-icon.svg"
+          }
+          alt="about"
+          className="w-6 h-6 mb-1"
+        />
+        About
+      </Link>
+
+      <Link
+        to="/services"
+        className={`flex flex-col items-center text-xs ${
+          isActive("/services") ? "text-blue-600" : "text-gray-600"
+        }`}
+      >
+        <img
+          src={
+            isActive("/services")
+              ? "/icons/service-page-icon-blue.svg"
+              : "/icons/service-page-icon.svg"
+          }
+          alt="services"
+          className="w-6 h-6 mb-1"
+        />
+        Services
+      </Link>
+
+      <Link
+        to="/contact"
+        className={`flex flex-col items-center text-xs ${
+          isActive("/contact") ? "text-blue-600" : "text-gray-600"
+        }`}
+      >
+        <img
+          src={
+            isActive("/contact")
+              ? "/icons/contact-page-icon-blue.svg"
+              : "/icons/contact-page-icon.svg"
+          }
+          alt="contact"
+          className="w-6 h-6 mb-1"
+        />
+        Contact
+      </Link>
+    </div>
+
+
     </>
   );
 }
