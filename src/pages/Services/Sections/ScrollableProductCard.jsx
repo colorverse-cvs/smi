@@ -7,7 +7,7 @@ export default function ScrollableProductCardSection() {
       title: "Chemicals & Fertilizers",
       description:
         "Connecting businesses with advanced consumer and industrial electronics sourced from trusted global manufacturers.",
-      image: "/images/pharma-cat-poster.png",
+      image: "/images/chemical-cat-poster-1.png",
     },
     {
       id: 2,
@@ -21,22 +21,15 @@ export default function ScrollableProductCardSection() {
       title: "Electronics",
       description:
         "Delivering innovative electronic solutions with top-grade manufacturing and quality assurance.",
-      image: "/images/pharma-cat-poster.png",
+      image: "/images/chemical-cat-poster-2.png",
     },
     {
       id: 4,
       title: "Agriculture",
       description:
         "Providing a wide range of essential Agriculture Products to support global food production and farming enterprises.",
-      image: "/images/pharma-cat-poster.png",
-    },
-    {
-      id: 5,
-      title: "Metals & Minerals",
-      description:
-        "Sourcing and supplying top-grade minerals and metals for industrial excellence.",
-      image: "/images/pharma-cat-poster.png",
-    },
+      image: "/images/agriculture-cat-poster.png",
+    }
   ];
 
   return (

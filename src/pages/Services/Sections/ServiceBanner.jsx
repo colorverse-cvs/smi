@@ -1,14 +1,18 @@
 export default function ServiceBanner() {
   return (
     <section
-      className="relative w-full h-[50vh] md:h-[60vh] lg:h-[70vh] bg-cover bg-center flex items-end md:items-center"
+      className="relative w-full h-[50vh] md:h-[60vh] lg:h-[70vh] bg-cover bg-center 
+                 flex items-center justify-center md:justify-start md:items-center"
       style={{ backgroundImage: "url('/images/service-banner.svg')" }}
     >
       {/* Dark Overlay */}
       <div className="absolute inset-0 bg-black/50"></div>
 
       {/* Text Content */}
-      <div className="relative z-10 max-w-3xl px-6 md:px-12 lg:px-20 text-white mx-1 mb-8 md:mb-0">
+      <div
+        className="relative z-10 max-w-3xl px-6 md:px-12 lg:px-20 text-white 
+                   md:text-left mx-auto md:mx-1 pt-12"
+      >
         <h2 className="text-3xl md:text-4xl font-semibold mb-4">Services</h2>
         <p className="text-sm md:text-base lg:text-lg leading-relaxed">
           At Sai Maulty International, we simplify global trade with dependable,
