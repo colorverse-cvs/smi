@@ -24,7 +24,7 @@ export default function HomeAboutUsSection() {
           <div>
             <h4 className="text-lg font-semibold mb-6">Our Founders</h4>
 
-            <div className="flex flex-row flex-wrap justify-left md:justify-center sm:justify-start gap-6 sm:gap-8">
+            <div className="flex flex-row flex-wrap justify-left sm:justify-start gap-6 sm:gap-8">
               {/* Founder 1 */}
               <div className="text-center sm:text-left">
                 <div className="flex justify-center sm:justify-start">
