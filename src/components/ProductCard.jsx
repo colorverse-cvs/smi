@@ -1,4 +1,8 @@
+import { useNavigate } from "react-router-dom";
+
 export default function ProductCard({ item }) {
+  const navigate = useNavigate();
+  
   return (
     <div className="relative group rounded-2xl overflow-hidden w-full max-w-[400px] transition-transform duration-300 hover:-translate-y-2">
       <div className="relative h-[420px] w-full">
@@ -21,6 +25,7 @@ export default function ProductCard({ item }) {
             <button
               className="bg-blue-600 hover:bg-gray-400 text-white p-2 rounded-lg transition"
               aria-label="Open product"
+              onClick={() => navigate("/exploreProduct")}
             >
               <img
                 src="/icons/arrow-up-right.svg"

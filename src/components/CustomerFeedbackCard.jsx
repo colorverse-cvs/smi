@@ -20,7 +20,7 @@ export default function CustomerFeedbackCard({ feedback }) {
           <div className="flex mb-1">
             {Array.from({ length: feedback.rating }).map((_, i) => (
               <svg
-                key={feedback.id}
+                key={i}
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 20 20"
                 fill="#FACC15"

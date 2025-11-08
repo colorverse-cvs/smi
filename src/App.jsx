@@ -8,21 +8,18 @@ import AboutUs from "./pages/AboutUs/AboutUs";
 import Service from "./pages/Services/Service";
 import ContactUs from "./pages/ContactUs/Contact";
 import Inquiry from "./pages/Inquiry/Inquiry";
+import ExploreProduct from "./pages/ExploreProduct/ExploreProduct";
 
 import Navbar from "./components/Navbar";
 import Footer from "./CommonSections/Footer";
 import ScrollToTop from "./components/ScrollToTop"; 
 
 import "./App.css";
-
-const ProductList = () => {
-  const { products } = useContext(ProductContext);
-  console.log("product ", products);
-  return <div>{/* You can render product cards here later */}</div>;
-};
+ 
 
 const App = () => {
   return (
+
     <ProductProvider>
       <Router>
         {/* ✅ Scrolls to top on every route change */}
@@ -37,9 +34,10 @@ const App = () => {
             <Route path="/services" element={<Service />} />
             <Route path="/contact" element={<ContactUs />} />
             <Route path="/inquiry" element={<Inquiry />} />
+            <Route path="/exploreProduct" element={<ExploreProduct />} />
           </Routes>
 
-          <ProductList />
+          {/* <ProductList /> */}
         </div>
 
         <Footer />
