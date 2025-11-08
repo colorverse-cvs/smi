@@ -12,7 +12,7 @@ export default function Navbar() {
     <>
       {/* DESKTOP NAVBAR */}
       <nav className="w-full bg-white fixed top-0 left-0 z-50 md:shadow-[0_2px_6px_rgba(0,0,0,0.1)]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10 py-4 flex items-center justify-between [padding-inline-end:unset] shadow-[0_2px_6px_rgba(0,0,0,0.1)] lg:shadow-none">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10 py-4 md:ps-26 lg:ps-26 flex items-center justify-between [padding-inline-end:unset] shadow-[0_2px_6px_rgba(0,0,0,0.1)] lg:shadow-none">
           {/* <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10 py-4 flex items-center justify-between [padding-inline-end:unset] \"> */}
 
           {/* ===== MOBILE VIEW ===== */}
