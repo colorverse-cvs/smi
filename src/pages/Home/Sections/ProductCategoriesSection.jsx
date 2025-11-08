@@ -11,7 +11,7 @@ const products = [
   },
   {
     id: 2,
-    title: "Pharmacuiticals",
+    title: "Pharmaceutical",
     description:
       "Providing high-quality pharmaceutical ingredients and products that meet international compliance and safety standards.",
     image: "/images/pharma-cat-poster.png"

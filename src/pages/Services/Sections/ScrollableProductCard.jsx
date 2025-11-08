@@ -11,7 +11,7 @@ export default function ScrollableProductCardSection() {
     },
     {
       id: 2,
-      title: "Pharmaceuticals",
+      title: "Pharmaceutical",
       description:
         "Providing high-quality pharmaceutical ingredients and products that meet international compliance and safety standards.",
       image: "/images/pharma-cat-poster.png",
@@ -31,6 +31,12 @@ export default function ScrollableProductCardSection() {
       image: "/images/agriculture-cat-poster.png",
     }
   ];
+
+  const handleExplore = (category) => {
+    navigate("/exploreProduct", {
+      state: { category },
+    });
+  };
 
   return (
     <section className="w-full bg-white py-16 px-6 md:px-12 lg:px-20">
