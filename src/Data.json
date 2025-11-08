@@ -1,14 +1,296 @@
-[
-  {
-    "id": 1,
-    "name": "Wireless Mouse",
-    "price": 29.99,
-    "category": "Electronics"
-  },
-  {
-    "id": 2,
-    "name": "Bluetooth Headphones",
-    "price": 59.99,
-    "category": "Audio"
-  }
-]
+{
+  "product_catalog": [
+    {
+      "category": "Pharmaceutical",
+      "sub_category": "API",
+      "product_name": "Ibuprofen Powder",
+      "key_specifications": {
+        "molecular_formula": "C₁₃H₁₈O₂",
+        "grade_standard": "USP, EP, BP Grade",
+        "appearance": "White or almost white crystalline powder",
+        "purity": "98.5% ~ 101.0% (on dried basis)",
+        "solubility": "Practically insoluble in water, freely soluble in acetone and ethanol.",
+        "melting_point": "75°C - 78°C",
+        "application_type": "Nonsteroidal Anti-inflammatory Drug (NSAID) for pain, fever, and inflammation relief."
+      },
+      "description": "Ibuprofen is a widely used Active Pharmaceutical Ingredient (API) belonging to the NSAID class. It functions by inhibiting the body's production of chemicals that cause inflammation and pain. The powder is suitable for manufacturing solid oral dosage forms like tablets, capsules, and suspensions, with different particle sizes available for specific formulation needs.",
+      "certification": [
+        "GMP Compliant",
+        "ISO 9001",
+        "Halal, Kosher"
+      ],
+      "moq": "25 KG",
+      "delivery_and_packaging": {
+        "delivery_time": "3–4 Weeks",
+        "packaging": "25 KG Fiber Drums with double inner polyethylene bags",
+        "packing_standard": "Pharm. Grade, Air-tight and Light-resistant"
+      }
+    },
+    {
+      "category": "Pharmaceutical",
+      "sub_category": "API",
+      "product_name": "Ketoprofen Powder",
+      "key_specifications": {
+        "molecular_formula": "C₁₆H₁₄O₃",
+        "grade_standard": "USP Grade",
+        "appearance": "White to almost white crystalline powder",
+        "purity": "NLT 98.5% and NMT 101.0% (on dried basis)",
+        "loss_on_drying": "NMT 0.5%",
+        "application_type": "NSAID used to treat pain, inflammation, swelling, and joint stiffness."
+      },
+      "description": "Ketoprofen is a potent NSAID used in both human and veterinary medicine, structurally related to ibuprofen. It is primarily formulated into capsules, extended-release tablets, and topical gels for pain management, especially for chronic conditions like arthritis. Its high purity ensures compliance with strict pharmacopoeial standards.",
+      "certification": [
+        "cGMP Certified",
+        "USP Compliant"
+      ],
+      "moq": "20 KG",
+      "delivery_and_packaging": {
+        "delivery_time": "2-3 Weeks (Ready Stock)",
+        "packaging": "10KG/20KG Drum Packing",
+        "packing_standard": "Sealed HDPE Drums, Moisture-protected"
+      }
+    },
+    {
+      "category": "Pharmaceutical",
+      "sub_category": "API",
+      "product_name": "Vitamin AD3 Powder",
+      "key_specifications": {
+        "vitamin_content": "A: 1,000,000 IU/g, D3: 200,000 IU/g",
+        "grade_standard": "Feed Grade",
+        "appearance": "Yellow to brown beadlets or powder",
+        "content_range": "100% ~ 120% of stated content",
+        "application_type": "Supports bone formation (D3), enhances vision, growth, and immune function (A). Used in animal feed."
+      },
+      "description": "A high-stability, synergistic blend of Vitamin A Acetate and Vitamin D3, essential for robust growth, skeletal development, and immune health in livestock, poultry, and aquaculture. The high concentration ensures efficacy even at low inclusion rates in feed premixes. Its beadlet form ensures optimal stability and bioavailability.",
+      "certification": [
+        "FAMI-QS Certified",
+        "ISO 22000"
+      ],
+      "moq": "500 KG",
+      "delivery_and_packaging": {
+        "delivery_time": "4 Weeks",
+        "packaging": "25 KG Multi-layer Paper Bags / HDPE Bags",
+        "packing_standard": "UV and Light-protected, Stored in cool, dry place"
+      }
+    },
+    {
+      "category": "Pharmaceutical",
+      "sub_category": "Binders & Fillers",
+      "product_name": "Microcrystalline Cellulose™",
+      "key_specifications": {
+        "available_grades": "PH 101, PH 102, PH 200",
+        "appearance": "White, odorless, tasteless powder",
+        "solubility": "Insoluble in water & most organic solvents",
+        "application_type": "Binder, filler, and disintegrant for tablets & capsules",
+        "moisture_content": "NMT 5.0%"
+      },
+      "description": "Microcrystalline Cellulose (MCC) is a purified, partially depolymerized cellulose widely used as a pharmaceutical excipient. It improves tablet compressibility, flow properties, and uniformity in solid dosage formulations. It is highly valued for direct compression due to its excellent binding capacity.",
+      "certification": [
+        "ISO 9001",
+        "CE Certified",
+        "RoHS Compliant",
+        "USP/NF, Ph.Eur., JP Compliant"
+      ],
+      "moq": "100 Units",
+      "delivery_and_packaging": {
+        "delivery_time": "2–3 Weeks",
+        "packaging": "25 KG HDPE Bags / Fiber Drums",
+        "packing_standard": "Export Standard Packing"
+      }
+    },
+    {
+      "category": "Pharmaceutical",
+      "sub_category": "Binders & Fillers",
+      "product_name": "Lactose Monohydrate (Crystalline)",
+      "key_specifications": {
+        "molecular_formula": "C₁₂H₂₂O₁₁·H₂O",
+        "grade_standard": "Ph.Eur., USP/NF Grade",
+        "appearance": "White or nearly white granular crystals/powder",
+        "solubility": "High solubility in water (Excellent for drug release)",
+        "function": "Diluent, filler, and carrier, especially for dry powder inhalers (DPIs)."
+      },
+      "description": "Lactose Monohydrate is a fundamental pharmaceutical excipient derived from milk. It provides superior compressibility and flowability, making it a staple for solid dosage forms like tablets and capsules. It is non-toxic, hypoallergenic, and compatible with a wide range of APIs, contributing to consistent dosing and stability.",
+      "certification": [
+        "ISO 9001",
+        "EXCiPACT Certification",
+        "Kosher and Halal Certified"
+      ],
+      "moq": "50 KG",
+      "delivery_and_packaging": {
+        "delivery_time": "3 Weeks",
+        "packaging": "25 KG/50 KG HDPE Drums with inner liner",
+        "packing_standard": "Pharmaceutical Export Standard, Moisture-resistant"
+      }
+    },
+    {
+      "category": "Pharmaceutical",
+      "sub_category": "Binders & Fillers",
+      "product_name": "Maize Starch (Native) Powder",
+      "key_specifications": {
+        "cas_number": "9005-25-8",
+        "grade_standard": "Food Grade / BP/USP Compliant (Native Starch B)",
+        "appearance": "Fine, white to slightly yellowish matte powder",
+        "moisture_content": "11.0% Max",
+        "function": "Binder (once cooked), disintegrant, and filler in tablets and capsules. Thickener in food."
+      },
+      "description": "A versatile excipient derived from maize, primarily used as a binder and disintegrant in pharmaceutical tableting, contributing to the structural integrity and timely break-up of the finished product. In the food industry, it is widely used as a natural thickener and stabilizer for sauces and beverages.",
+      "certification": [
+        "FSSC 22000 Certified",
+        "Non-GMO Available"
+      ],
+      "moq": "500 KG",
+      "delivery_and_packaging": {
+        "delivery_time": "2 Weeks",
+        "packaging": "25 KG / 50 KG PP Bags or Paper Bags",
+        "packing_standard": "Food & Pharma Standard, Secured from moisture"
+      }
+    },
+    {
+      "category": "Pharmaceutical",
+      "sub_category": "Lubricants & Glidants",
+      "product_name": "Magnesium Stearate NF",
+      "key_specifications": {
+        "cas_number": "557-04-0",
+        "grade_standard": "NF (National Formulary) Grade",
+        "appearance": "Fine, white, soapy powder",
+        "solubility": "Insoluble in water",
+        "usage_level": "Typically 0.25% to 1.0% w/w",
+        "function": "Reduces friction during tablet compression and improves powder flow."
+      },
+      "description": "A premium pharmaceutical lubricant essential for high-speed tablet manufacturing. It prevents powder mixtures from sticking to the die walls and punches, ensuring smooth tablet ejection and consistent weight uniformity. It is recognized as Generally Recognized As Safe (GRAS) by the FDA.",
+      "certification": [
+        "cGMP Compliant",
+        "GRAS Status (FDA)",
+        "EP/BP/USP Compliant"
+      ],
+      "moq": "25 KG",
+      "delivery_and_packaging": {
+        "delivery_time": "3 Weeks",
+        "packaging": "25 KG Fiber Drums",
+        "packing_standard": "Air-tight, Moisture-free Packaging"
+      }
+    },
+    {
+      "category": "Pharmaceutical",
+      "sub_category": "Lubricants & Glidants",
+      "product_name": "Aerosil 200 (Colloidal Silicon Dioxide)",
+      "key_specifications": {
+        "cas_number": "7631-86-9",
+        "grade_standard": "Pharma Grade (AEROSIL® 200 Pharma)",
+        "appearance": "Light, fluffy, amorphous, white powder",
+        "specific_surface_area": "175 – 225 m²/g (BET)",
+        "function": "Glidant, anti-caking agent, and viscosity control for liquid/semisolid systems."
+      },
+      "description": "A high-purity, hydrophilic fumed silica widely regarded as the industry standard glidant for solid dosage forms. It significantly improves powder flowability, preventing caking and optimizing tablet weight uniformity on high-speed presses. It also acts as a carrier for liquid actives and a thickener for gels/ointments.",
+      "certification": [
+        "ISO 9001",
+        "ICH Q3D Compliant",
+        "Universal Pharmacopoeia Compliant"
+      ],
+      "moq": "10 KG",
+      "delivery_and_packaging": {
+        "delivery_time": "4 Weeks",
+        "packaging": "10 KG/20 KG Multi-ply paper bags",
+        "packing_standard": "Original Manufacturer Packing, Protect from moisture and heat"
+      }
+    },
+    {
+      "category": "Pharmaceutical",
+      "sub_category": "Solvents & Carriers",
+      "product_name": "Propylene Glycol 99%",
+      "key_specifications": {
+        "molecular_formula": "C₃H₈O₂",
+        "grade_standard": "USP/EP/JP Grade",
+        "appearance": "Clear, colorless, viscous liquid; practically odorless",
+        "purity": "NLT 99.0%",
+        "solubility": "Miscible with water, ethanol, and various organic solvents.",
+        "function": "Solvent, co-solvent, humectant, and stabilizer in oral, topical, and injectable formulations."
+      },
+      "description": "High-purity Propylene Glycol (PG) is a critical excipient used as a solvent and vehicle for water-insoluble drugs in liquid and semi-solid dosage forms. Its low toxicity and excellent solvent properties make it a versatile agent for a wide range of pharmaceutical and cosmetic applications, ensuring product stability and bioavailability.",
+      "certification": [
+        "ISO 9001",
+        "REACH Compliant"
+      ],
+      "moq": "200 KG",
+      "delivery_and_packaging": {
+        "delivery_time": "1-2 Weeks",
+        "packaging": "200 KG HDPE/Metal Drums or IBC Totes",
+        "packing_standard": "Bulk Liquid Standard, Sealed for purity"
+      }
+    },
+    {
+      "category": "Pharmaceutical",
+      "sub_category": "Preservatives",
+      "product_name": "Sodium Benzoate (Pharma Grade)",
+      "key_specifications": {
+        "chemical_formula": "C₇H₅O₂Na",
+        "grade_standard": "BP Grade / Pharmaceutical Grade",
+        "appearance": "White, fine crystalline powder",
+        "solubility": "Highly soluble in water",
+        "pH_in_solution": "Approx. 8.0 (1% solution)",
+        "function": "Antimicrobial preservative, effective against fungi, yeasts, and bacteria in acidic environments."
+      },
+      "description": "Sodium Benzoate is an effective, water-soluble preservative used globally to inhibit microbial growth in pharmaceutical syrups, oral liquids, and acidic food products. Its compliance with pharmacopoeia specifications ensures its suitability for medicinal and pediatric applications. It is also used as a tablet lubricant in some formulations.",
+      "certification": [
+        "BP/EP/USP Compliant",
+        "FSSC 22000",
+        "E211 Food Additive Status"
+      ],
+      "moq": "25 KG",
+      "delivery_and_packaging": {
+        "delivery_time": "2 Weeks",
+        "packaging": "25 KG Lined Paper Bags or Fiber Drums",
+        "packing_standard": "Store at Room Temperature, Dry and Airtight"
+      }
+    },
+    {
+      "category": "Pharmaceutical",
+      "sub_category": "Preservatives",
+      "product_name": "Potassium Sorbate (Granular)",
+      "key_specifications": {
+        "chemical_formula": "C₆H₇KO₂",
+        "grade_standard": "FCC / E202 / Pharma Grade",
+        "appearance": "White to off-white granular crystals",
+        "purity": "99.0% ~ 101.0%",
+        "solubility": "Very soluble in water (58.2% at 20 °C)",
+        "function": "Inhibits molds, yeasts, and bacteria, primarily used to increase shelf life in liquids and dried products."
+      },
+      "description": "Potassium Sorbate is the potassium salt of Sorbic Acid, offering excellent solubility and potent antimicrobial activity, especially against fungi and yeasts. The granular form minimizes dusting and ensures easy, uniform blending in liquid formulations, dietary supplements, and food products like cheeses and dried fruits.",
+      "certification": [
+        "HACCP, Kosher, Halal Certified",
+        "EP/USP Compliant"
+      ],
+      "moq": "25 KG",
+      "delivery_and_packaging": {
+        "delivery_time": "3 Weeks",
+        "packaging": "25 KG Fiber Drums or Carton Boxes",
+        "packing_standard": "Moisture and Light Protected, Store in a cool, dry place"
+      }
+    },
+    {
+      "category": "Pharmaceutical",
+      "sub_category": "Preservatives",
+      "product_name": "Benzalkonium Chloride (BKC 50%)",
+      "key_specifications": {
+        "cas_number": "8001-54-5",
+        "grade_standard": "Pharma / Industrial Grade",
+        "appearance": "Clear, pale yellow solution",
+        "concentration": "49.0% w/v – 51.0% w/v",
+        "solubility": "Miscible with water; soluble in alcohols",
+        "function": "Potent cationic surfactant, disinfectant, sanitizer, and preservative."
+      },
+      "description": "Benzalkonium Chloride (BKC) 50% solution is a highly effective, broad-spectrum biocide. In pharmaceutical applications, it serves as an antiseptic and a preservative in eye drops and topical formulations. Industrially, it is crucial for water treatment and sanitation due to its potent antimicrobial properties against bacteria, fungi, and some viruses.",
+      "certification": [
+        "GMP Certified",
+        "ISO Certified",
+        "EP/USP Compliant"
+      ],
+      "moq": "50 KG",
+      "delivery_and_packaging": {
+        "delivery_time": "1-2 Weeks",
+        "packaging": "50 KG / 200 KG HDPE Barrels and Carbouys",
+        "packing_standard": "Store in a cool, dry place, away from incompatible substances"
+      }
+    }
+  ]
+}
