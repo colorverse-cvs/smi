@@ -519,7 +519,7 @@ export default function ExploreProduct() {
                   >
                     <div className="h-40 w-40 flex items-center justify-center bg-gray-50 rounded-md mb-4">
                       <img
-                        src={p.img || "/placeholder.png"}
+                        src={p.product_img || "/placeholder.png"}
                         alt={p.product_name}
                         className="h-32 w-32 object-contain"
                       />

@@ -18,7 +18,7 @@ const products = [
   },
   {
     id: 3,
-    title: "Chemicals & Fertilizers",
+    title: "Electronics",
     description:
       "Connecting businesses with advanced consumer and industrial electronics sourced from trusted global manufacturers.",
     image: "/images/chemical-cat-poster-2.png"
