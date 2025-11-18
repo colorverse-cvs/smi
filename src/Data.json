@@ -1,14 +1,1080 @@
-[
-  {
-    "id": 1,
-    "name": "Wireless Mouse",
-    "price": 29.99,
-    "category": "Electronics"
-  },
-  {
-    "id": 2,
-    "name": "Bluetooth Headphones",
-    "price": 59.99,
-    "category": "Audio"
-  }
-]
+{
+  "product_catalog": [
+    {
+      "category": "Electronics",
+      "sub_category": "Semiconductors & Chips",
+      "product_name": "DAC0808LCN™",
+      "key_specifications": {
+        "type": "Analog Multiplexer/Demultiplexer (MUX/DEMUX)",
+        "channels": "Single 8-Channel (1:8)",
+        "technology": "CMOS",
+        "package": "Dual In-line Package (DIP)",
+        "function": "High-performance switching of analog signals, controlled by a 3-bit binary address."
+      },
+      "description": "A monolithic CMOS analog multiplexer integrated circuit (IC) widely used in data acquisition systems and process control for routing multiple signals.",
+      "certification": [
+        "ISO 9001 Certified",
+        "GMP Compliant",
+        "FDA Approved Facility"
+      ],
+      "minimum_order_quantity": "500 Units",
+      "delivery_and_packaging": {
+        "delivery_time": "2–3 Weeks",
+        "packaging": "3D IC / Die Stacking, Export Standard Packing"
+      }
+    },
+    {
+      "category": "Electronics",
+      "sub_category": "Semiconductors & Chips",
+      "product_name": "Ka5L0380Rydu-Nd",
+      "key_specifications": {
+        "type": "Integrated Switcher / Regulator",
+        "function": "Used in power supply units for switching, voltage regulation, and power management.",
+        "package": "TO-220 or equivalent (as pictured)",
+        "voltage_rating": "Varies by application",
+        "current_rating": "Varies by application"
+      },
+      "description": "An integrated power switcher often used in offline SMPS (Switch-Mode Power Supply) applications. Acts as a core component for efficient power conversion.",
+      "minimum_order_quantity": "100 Units",
+      "delivery_and_packaging": {
+        "delivery_time": "3 Weeks",
+        "packaging": "Trays/Tubes"
+      }
+    },
+    {
+      "category": "Electronics",
+      "sub_category": "Semiconductors & Chips",
+      "product_name": "Simple Scientific Calculator DSI235Y",
+      "key_specifications": {
+        "type": "Calculator IC / Microcontroller",
+        "function": "Core component for scientific calculators or simple display-based computation devices.",
+        "package": "Dual In-line Package (DIP)",
+        "storage": "Non-Volatile SRAM (as suggested by DALLAS DS12 series)"
+      },
+      "description": "An integrated chip (IC) specialized for carrying out scientific and simple arithmetic functions, often found in handheld devices. (The specific part number DS1235Y suggests a Nonvolatile SRAM component, often integrated into memory systems.)",
+      "minimum_order_quantity": "100 Units",
+      "delivery_and_packaging": {
+        "delivery_time": "2–3 Weeks",
+        "packaging": "Trays/Tubes"
+      }
+    },
+    {
+      "category": "Electronics",
+      "sub_category": "Passive Components",
+      "product_name": "smd passive components",
+      "key_specifications": {
+        "type": "Capacitor / Resistor",
+        "form_factor": "Surface Mount Device (SMD)",
+        "appearance": "Cylindrical (Electrolytic Capacitor shown)",
+        "function": "Filtering, energy storage, current limiting/voltage division."
+      },
+      "description": "A generic listing for essential passive electronic components used for filtering, energy storage, and current control in compact circuit board designs.",
+      "minimum_order_quantity": "5000 Units",
+      "delivery_and_packaging": {
+        "delivery_time": "1–2 Weeks",
+        "packaging": "Tape and Reel"
+      }
+    },
+    {
+      "category": "Electronics",
+      "sub_category": "Passive Components",
+      "product_name": "Rf Passive Components",
+      "key_specifications": {
+        "type": "Connectors / Attenuators / Filters",
+        "application": "Radio Frequency (RF) and Microwave circuits",
+        "connectors": "SMA, BNC, N-Type (as pictured)",
+        "function": "Impedance matching, signal routing, and power control in high-frequency signal paths."
+      },
+      "description": "Components designed for use in RF and high-frequency applications, including specialized connectors and conditioning elements.",
+      "minimum_order_quantity": "200 Units",
+      "delivery_and_packaging": {
+        "delivery_time": "3 Weeks",
+        "packaging": "Blister Packs/Bags"
+      }
+    },
+    {
+      "category": "Electronics",
+      "sub_category": "Fiber Optic Equipment",
+      "product_name": "LIEKKI Coreless Passive Fibers",
+      "key_specifications": {
+        "type": "Optical Fiber",
+        "material": "Coreless Glass/Silica",
+        "application": "Specialized laser applications, sensor development, and high-power delivery.",
+        "function": "Provides a path for light transmission with minimal attenuation."
+      },
+      "description": "Advanced passive optical fiber from LIEKKI, typically used in unique optical systems where core manipulation or coreless propagation is required.",
+      "minimum_order_quantity": "100 Meters",
+      "delivery_and_packaging": {
+        "delivery_time": "4 Weeks",
+        "packaging": "Spool/Reel in Protective Box"
+      }
+    },
+    {
+      "category": "Electronics",
+      "sub_category": "Display Components",
+      "product_name": "6 mm 4 Digit 7 Segment Display",
+      "key_specifications": {
+        "type": "7-Segment LED/LCD",
+        "size": "6 mm digit height",
+        "digits": "4",
+        "interface": "Standard parallel or serial interface",
+        "color": "Typically black background/white or blue digits (as pictured)"
+      },
+      "description": "A compact, easy-to-read numeric display module commonly used in timers, counters, and digital meters.",
+      "minimum_order_quantity": "500 Units",
+      "delivery_and_packaging": {
+        "delivery_time": "2 Weeks",
+        "packaging": "Anti-static trays"
+      }
+    },
+    {
+      "category": "Electronics",
+      "sub_category": "Display Components",
+      "product_name": "Led Numeric Display",
+      "key_specifications": {
+        "type": "7-Segment LED",
+        "size": "Large format",
+        "digits": "Multiple digits (4 shown)",
+        "color": "Red (as pictured)",
+        "interface": "Serial or parallel drive for high visibility"
+      },
+      "description": "A large, high-visibility numeric display suitable for industrial instrumentation, scoreboards, and public clocks.",
+      "minimum_order_quantity": "100 Units",
+      "delivery_and_packaging": {
+        "delivery_time": "3 Weeks",
+        "packaging": "Protective foam packaging"
+      }
+    },
+    {
+      "category": "Electronics",
+      "sub_category": "Display Components",
+      "product_name": "0.96 inch I2C/IIC 4pin OLED",
+      "key_specifications": {
+        "type": "Organic Light-Emitting Diode (OLED)",
+        "size": "0.96 inch",
+        "interface": "I2C/IIC (4-pin)",
+        "color": "Monochrome (e.g., blue or white)",
+        "function": "Low-power graphic display for microcontrollers."
+      },
+      "description": "A small, self-illuminating display module favored for its high contrast, wide viewing angle, and low power consumption in portable devices and hobby projects.",
+      "minimum_order_quantity": "200 Units",
+      "delivery_and_packaging": {
+        "delivery_time": "2 Weeks",
+        "packaging": "Anti-static bags"
+      }
+    },
+    {
+      "category": "Electronics",
+      "sub_category": "Sensors & Transducers",
+      "product_name": "Honeywell Sensors Transducers",
+      "key_specifications": {
+        "type": "Various Sensors (Pressure, Temperature, Flow, Position)",
+        "manufacturer": "Honeywell (High Reliability)",
+        "output": "Analog, Digital, or Voltage",
+        "application": "Industrial control, aerospace, medical devices."
+      },
+      "description": "A listing for professional-grade sensors and transducers from Honeywell, known for high accuracy and reliability in demanding measurement applications.",
+      "minimum_order_quantity": "50 Units",
+      "delivery_and_packaging": {
+        "delivery_time": "4 Weeks (Lead Time)",
+        "packaging": "Protective Boxes"
+      }
+    },
+    {
+      "category": "Electronics",
+      "sub_category": "Sensors & Transducers",
+      "product_name": "Diffuse Scan Sensor",
+      "key_specifications": {
+        "type": "Photoelectric Sensor",
+        "principle": "Diffuse Scan (Reflects light off the target)",
+        "range": "Short to medium distance sensing",
+        "form_factor": "Industrial brick/block style (as pictured)",
+        "function": "Presence detection and counting without a reflector."
+      },
+      "description": "An optical sensor used in automation and packaging lines to detect the presence or absence of objects based on reflected light.",
+      "minimum_order_quantity": "20 Units",
+      "delivery_and_packaging": {
+        "delivery_time": "2 Weeks",
+        "packaging": "Individual Boxes"
+      }
+    },
+    {
+      "category": "Electronics",
+      "sub_category": "Sensors & Transducers",
+      "product_name": "Highway Addressable Transducer",
+      "key_specifications": {
+        "type": "Digital Transducer",
+        "interface": "Addressable serial bus (Highway)",
+        "function": "Converts a measured physical quantity (e.g., vibration, temperature) into a standardized digital signal for transmission.",
+        "application": "Long-distance industrial data logging and monitoring."
+      },
+      "description": "A transducer with built-in digital processing and addressing capabilities, allowing multiple devices to be connected on a single data highway/bus for efficient monitoring.",
+      "minimum_order_quantity": "25 Units",
+      "delivery_and_packaging": {
+        "delivery_time": "3 Weeks",
+        "packaging": "ESD Bags/Boxes"
+      }
+    },
+    {
+      "category": "Agriculture",
+      "sub_category": "Bio-Control Agent / Bio-Fungicide",
+      "product_name": "PSEUDO 300 Pro BF™",
+      "product_img" : "/images/products/Pseudo 300.jpg",
+      "key_specifications": {
+        "active_microorganism": "Pseudomonas fluorescens",
+        "powder_cfu": "5 x 10⁷ cfu/gm",
+        "liquid_cfu": "2 x 10⁹ CFU/ml",
+        "application_type": "Controls diseases caused by Pythium spp, Phytophthora spp, Rhizoctonia solani and Fusarium wilt. Protects from powdery mildew, bacterial leaf blight, downy mildew, and soil-borne diseases.",
+        "dose_spraying": "1 gm per liter of water",
+        "dose_drip_irrigation": "400 gm of Pseudo 300 Pro per acre",
+        "available_sizes": "100 gm, 200 gm"
+      },
+      "description": "PSEUDO 300 Pro BF is a highly effective microbial solution for controlling a wide spectrum of fungal and bacterial plant diseases. It also dissolves the insoluble form of zinc into its soluble form, making it available to the crops to correct the deficiency.",
+      "certification": [
+        "Biotech Research Product"
+      ],
+      "moq": "100 Units",
+      "delivery_and_packaging": {
+        "delivery_time": "2–3 Weeks",
+        "packaging": "100 gm, 200 gm Pouches/Bags"
+      }
+    },
+    {
+      "category": "Chemicals & Fertilizers",
+      "sub_category": "Potassium Mobilizing Bio-Fertilizer (KMB)",
+      "product_name": "K UPTECH™",
+      "key_specifications": {
+        "active_microorganism": "Frateuria aurantia",
+        "powder_cfu": "5 x 10⁷ cfu/gm",
+        "liquid_cfu": "2 x 10⁹ CFU/ml",
+        "application_type": "Contains potassium-mobilizing bacteria. Helps to increase yield, disease resistance and water retention capacity. Improves texture and colour of fruit by meeting potash deficiency.",
+        "dose": "1 kg/acre (Drip / Soil / Slurry / Flood application)",
+        "available_sizes": "1 kg, 1 liter, 5 liter"
+      },
+      "description": "K UPTECH contains potent potassium-mobilizing bacteria that convert unavailable soil potash into a plant-available form. It restores soil fertility through the microbial process.",
+      "certification": [
+        "Biotech Research Product"
+      ],
+      "moq": "100 KG / 100 Litres",
+      "delivery_and_packaging": {
+        "delivery_time": "2–4 Weeks",
+        "packaging": "1 kg, 1 liter, 5 liter HDPE Packs"
+      }
+    },
+    {
+      "category": "Chemicals & Fertilizers",
+      "sub_category": "Phosphate Solubilizing Bio-Fertilizer (PSB)",
+      "product_name": "P UPTECH™",
+      "key_specifications": {
+        "active_microorganism": "Bacillus megaterium",
+        "powder_cfu": "5 x 10⁷ cfu/gm",
+        "liquid_cfu": "2 x 10⁹ CFU/ml",
+        "application_type": "Helps to release insoluble P in soluble form to compensate for phosphorus deficiency in plants. Stimulates root development, increasing stem strength, improving flower formation and seed germination.",
+        "dose": "1 kg/acre (Drip / Soil / Slurry / Flood application)",
+        "available_sizes": "1 kg, 1 liter, 5 liter"
+      },
+      "description": "P UPTECH utilizes Bacillus megaterium to efficiently solubilize complex, unavailable phosphorus in the soil. It secretes anti-fungal substances that help to control soil borne diseases.",
+      "certification": [
+        "Biotech Research Product"
+      ],
+      "moq": "100 KG / 100 Litres",
+      "delivery_and_packaging": {
+        "delivery_time": "2–4 Weeks",
+        "packaging": "1 kg, 1 liter, 5 liter HDPE Packs"
+      }
+    },
+    {
+      "category": "Chemicals & Fertilizers",
+      "sub_category": "Nitrogen Fixing Bio-Fertilizer",
+      "product_name": "AZON PLUS™",
+      "product_img" : "/images/products/Azon plus.jpg",
+      "key_specifications": {
+        "active_microorganism": "Azotobacter chroococcum",
+        "powder_cfu": "5 x 10⁷ cfu/gm",
+        "liquid_cfu": "2 x 10⁹ CFU/ml",
+        "application_type": "Contains nitrogen-fixing bacteria that help to convert atmospheric nitrogen in the form of ammonium ions into soil that is inaccessible to plants.",
+        "dose": "500 gm/acre (Drip / Soil / Slurry / Flood application)",
+        "available_sizes": "500 gm, 1 liter, 5 liter"
+      },
+      "description": "AZON PLUS helps to improve soil fertility and seed germination through the microbial process.",
+      "certification": [
+        "Racifert Bio-Fertilizer"
+      ],
+      "moq": "100 Units",
+      "delivery_and_packaging": {
+        "delivery_time": "2–3 Weeks",
+        "packaging": "500 gm, 1 liter, 5 liter Packs"
+      }
+    },
+    {
+      "category": "Chemicals & Fertilizers",
+      "sub_category": "Micronutrient Solubilizing Bio-Fertilizer",
+      "product_name": "ZINKOR™",
+      "product_img" : "/images/products/Zinkor.jpg",
+      "key_specifications": {
+        "active_microorganism": "ZnSB: zinc-solubilizing bacteria",
+        "powder_cfu": "5 x 10⁷ cfu/gm",
+        "liquid_cfu": "2 x 10⁹ CFU/ml",
+        "application_type": "Dissolves the insoluble form of zinc into its soluble form. Helps to form auxins, which help regulate growth and stem elongation.",
+        "dose": "500 gm/acre (Drip / Soil / Slurry / Flood application)",
+        "available_sizes": "500 gm, 1 liter, 5 liter"
+      },
+      "description": "ZINKOR increases crop yield and productivity by naturally restoring zinc through microbial processes that help to improve soil fertility and structure.",
+      "certification": [
+        "Biotech Research Product"
+      ],
+      "moq": "100 Units",
+      "delivery_and_packaging": {
+        "delivery_time": "2–3 Weeks",
+        "packaging": "500 gm, 1 liter, 5 liter Packs"
+      }
+    },
+    {
+      "category": "Agriculture",
+      "sub_category": "Bio-Fungicide / Biological Control Agent",
+      "product_name": "TRIMAKE™",
+      "product_img" : "/images/products/Trimake.jpg",
+      "key_specifications": {
+        "active_microorganism": "Trichoderma viridi",
+        "powder_cfu": "2 x 10⁶ cfu/gm",
+        "liquid_cfu": "2 x 10⁹ cfu/ml",
+        "application_type": "Fungicidal effect makes it a useful biological control agent against plant pathogenic fungi. Effective in controlling seed and soil borne diseases including Rhizoctonia solani, Macrophomina phaseolina and Fusarium species.",
+        "dose_foliar": "100 gm, 200 gm",
+        "dose_talc_based": "3-5 kg/acre",
+        "dose_drip_irrigation": "400 gm per acre",
+        "dose_spraying": "1 gm per litre",
+        "available_sizes": "Foliar grade: 100 gm, 200 gm; Talc based: 1 kg"
+      },
+      "description": "TRIMAKE has been shown to provide protection against pathogens such as Rhizoctonia, Pythium and even Armillaria.",
+      "certification": [
+        "Probiotic Micro Organism"
+      ],
+      "moq": "100 Units",
+      "delivery_and_packaging": {
+        "delivery_time": "3 Weeks",
+        "packaging": "100 gm, 200 gm, 1 kg Packs"
+      }
+    },
+    {
+      "category": "Agriculture",
+      "sub_category": "Bio-Control Agent / Bio-Fertilizer",
+      "product_name": "BECILLUS PRO BF™",
+      "product_img" : "/images/products/Becillus.jpg",
+      "key_specifications": {
+        "active_microorganism": "Bacillus subtilis",
+        "powder_cfu": "5 x 10⁷ cfu/gm",
+        "liquid_cfu": "2 x 10⁹ CFU/ml",
+        "application_type": "Produces metabolites or lipopeptides such as the antibiotic enzyme iturin, which combats downy mildew, powdery mildew, bacterial blight and soil and root-borne diseases.",
+        "dose_spraying": "1 gm per liter of water",
+        "dose_soil_application": "400 gm of Becillus Pro BF per acre",
+        "available_sizes": "100 gm, 200 gm"
+      },
+      "description": "BECILLUS PRO BF solubilizes insoluble form of phosphorus to soluble form and makes it available to plant. It is compatible with 6BA, GA, IBA, NAA, IAA and CPPU as well as a wide range of fungicides and insecticides.",
+      "certification": [
+        "Biotech Research Product"
+      ],
+      "moq": "100 Units",
+      "delivery_and_packaging": {
+        "delivery_time": "2 Weeks",
+        "packaging": "100 gm, 200 gm Pouches"
+      }
+    },
+    {
+      "category": "Chemicals & Fertilizers",
+      "sub_category": "Micronutrient Solubilizing Bio-Fertilizer",
+      "product_name": "SILIRICH™",
+      "product_img" : "/images/products/Silirich.jpg",
+      "key_specifications": {
+        "active_microorganism": "Silicon solubilizing bacteria",
+        "powder_cfu": "5 x 10⁷ cfu/gm",
+        "liquid_cfu": "2 x 10⁹ CFU/ml",
+        "application_type": "Increases biomass production and increases tolerance to abiotic and biotic stress. Helps the plant with stability and protection.",
+        "dose": "500 gm/acre (Drip / Soil / Slurry / Flood application)",
+        "available_sizes": "500 gm, 1 kg"
+      },
+      "description": "SILIRICH binds silicon in the soil into a form available to the plants. The silicon content of the soil is restored in a natural way.",
+      "certification": [
+        "Eco-Friendly",
+        "Probiotic Micro Organism"
+      ],
+      "moq": "50 KG",
+      "delivery_and_packaging": {
+        "delivery_time": "3 Weeks",
+        "packaging": "500 gm, 1 kg Pouches"
+      }
+    },
+    {
+      "category": "Chemicals & Fertilizers",
+      "sub_category": "Bio-Fertilizer Consortia (NPK)",
+      "product_name": "UPSORTIA™",
+      "product_img" : "/images/products/Upsorita.jpg",
+      "key_specifications": {
+        "active_microorganism": "Carrier based biofertilizer consortia",
+        "cfu": "5 x 10⁷ cfu/gm",
+        "function": "Acts as growth promoter and reduces abiotic stress in crops. Helps to maintain soil pH levels.",
+        "dose": "500 gm/acre (Drip / Soil / Slurry / Flood application)",
+        "available_sizes": "500 gm, 1 kg"
+      },
+      "description": "UPSORTIA builds up the population of beneficial microbes in the soil. It helps plants fight against soil-borne diseases contributing to better utilization, absorption and availability of nutrients such as N, P and K.",
+      "certification": [
+        "Consortia of NPK Microorganisms"
+      ],
+      "moq": "50 KG",
+      "delivery_and_packaging": {
+        "delivery_time": "2-3 Weeks",
+        "packaging": "500 gm, 1 kg Pouches"
+      }
+    },
+    {
+      "category": "Chemicals & Fertilizers",
+      "sub_category": "Sulphur Oxidizing Bio-Fertilizer",
+      "product_name": "SULFIX™",
+      "key_specifications": {
+        "active_microorganism": "Sulphur oxidizing bacteria: Thiobacillus spp.",
+        "powder_cfu": "5 x 10⁷ cfu/gm",
+        "liquid_cfu": "2 x 10⁹ CFU/ml",
+        "function": "Contains sulphur-oxidizing bacteria that help in the formation of chlorophyll, enabling photosynthesis. Restores the sulphur content of the soil and improves fertility.",
+        "dose": "500 gm/acre (Drip / Soil / Slurry / Flood application)",
+        "available_sizes": "500 g, 1 kg"
+      },
+      "description": "SULFIX helps plants produce starch, sugars, oils, fats, vitamins and other compounds for plant growth and development.",
+      "certification": [
+        "Racifert Bio-Fertilizer",
+        "Probiotic Micro Organism"
+      ],
+      "moq": "50 KG",
+      "delivery_and_packaging": {
+        "delivery_time": "2 Weeks",
+        "packaging": "500 gm, 1 kg Packs"
+      }
+    },
+    {
+      "category": "Agriculture",
+      "sub_category": "Bionematicide / Bio-Control Agent",
+      "product_name": "NEMAROD®",
+      "product_img" : "/images/products/Nemarod.jpg",
+      "key_specifications": {
+        "active_microorganism": "Trichoderma harzianum",
+        "powder_cfu": "5 x 10⁷ cfu/gm",
+        "application_type": "Used to control the eggs of plant-damaging nematodes that cause root-knot nematodes, cyst nematodes, kidney-shaped nematodes, borrowing nematodes and golden cyst nematodes.",
+        "dose": "500 gm to 1 kg per acre (Soil application)",
+        "available_sizes": "500 gm"
+      },
+      "description": "NEMAROD is a bio-control agent specifically formulated to combat soil-dwelling nematodes.",
+      "certification": [
+        "Soil Application Grade"
+      ],
+      "moq": "50 KG",
+      "delivery_and_packaging": {
+        "delivery_time": "3 Weeks",
+        "packaging": "500 gm Pouches/Bags"
+      }
+    },
+    {
+      "category": "Chemicals & Fertilizers",
+      "sub_category": "Vesicular-Arbuscular Mycorrhiza (VAM) Bio-Fertilizer",
+      "product_name": "RACIGOLD™",
+      "product_img" : "/images/products/Racigold.jpg",
+      "key_specifications": {
+        "active_ingredient": "Vesicular-arbuscular Mycorrhiza (VAM)",
+        "potency": "1200 IP/gm",
+        "function": "Extends the plant root system, increasing the surface of nutrient absorption. Increases tolerance to soil salinity and reduces disease incidence.",
+        "dose": "100 gm Racigold per acre (Drip irrigation)",
+        "available_sizes": "100 gm, 200 gm"
+      },
+      "description": "RACIGOLD helps in the uptake of nutrients from the soil such as P, K and micronutrients from the lower part and helps to maintain soil fertility. It increases plant tolerance to various environmental stresses for stronger and healthier plants, and helps maintain soil quality and nutrient cycling.",
+      "certification": [
+        "Racifert Product",
+        "Organic Bio-Fertilizer"
+      ],
+      "moq": "50 KG",
+      "delivery_and_packaging": {
+        "delivery_time": "2-3 Weeks",
+        "packaging": "100 gm, 200 gm Containers"
+      }
+    },
+    {
+      "category": "Chemicals & Fertilizers",
+      "sub_category": "Organic Manure Enhancer / Decomposing Culture",
+      "product_name": "COMPOST EM 151™",
+      "product_img" : "/images/products/EM 151.jpg",
+      "key_specifications": {
+        "active_ingredient": "Highly efficient strain of saprophytic fungal and bacterial culture",
+        "technology_developed_by": "Bhabha Atomic Research Center (BARC), Government of India",
+        "function": "Rapid decomposition of wet and dry waste material into good-quality organic manure (within 6 to 8 weeks). Decomposing culture for Rapid Bio Decomposing of dry leaves and garden wastes.",
+        "dose_soil": "500 gm Racifert Compost EM-151 for 3 to 5 tons of FYM/Manure",
+        "dose_drip_irrigation": "1 liter per acre over manure",
+        "available_sizes": "150 gm, 500 gm, 1 liter, 5 liter"
+      },
+      "description": "COMPOST EM 151™ is a developed powder consortium for rapid decomposition of wet and dry waste material. It helps mitigate pollution caused by burning smoke, green/dry leaves, and waste materials.",
+      "certification": [
+        "BARC Technology",
+        "Govt. of India Certified"
+      ],
+      "moq": "150 Units",
+      "delivery_and_packaging": {
+        "delivery_time": "3–4 Weeks",
+        "packaging": "150 gm, 500 gm, 1 liter, 5 liter Packs"
+      }
+    },
+    {
+      "category": "Chemicals & Fertilizers",
+      "sub_category": "Micronutrient Mobilizer / Organic Acid Secretor",
+      "product_name": "CA MOBILIZER™",
+      "key_specifications": {
+        "active_ingredient": "Effective microbial strain that secretes various organic acids",
+        "function": "Acts as a divalent catalyst for $\text{Ca}^{2+}$ coupling. Releases phosphorus and mobilizes calcium from insoluble complexes, making them available to plants.",
+        "dose": "500 gm/acre (Drip / Soil / Slurry / Flood application)",
+        "available_sizes": "500 gm, 1 kg"
+      },
+      "description": "CA MOBILIZER™ contains a microbial strain that helps deliver the calcium to the plants, and the microbes play an important role in making the calcium available to the plants by producing organic matter.",
+      "certification": [
+        "ISO Certified",
+        "Organic Bio-Fertilizer"
+      ],
+      "moq": "50 KG",
+      "delivery_and_packaging": {
+        "delivery_time": "2–3 Weeks",
+        "packaging": "500 gm, 1 kg Pouches/Bags"
+      }
+    },
+    {
+      "category": "Chemicals & Fertilizers",
+      "sub_category": "Growth Promoter / Microbial Consortia",
+      "product_name": "RACIBÁX™",
+      "key_specifications": {
+        "active_ingredient": "Consortium of microorganisms",
+        "cfu": "$2 \times 10^9 \text{ CFU/ml}$",
+        "function": "Has a growth-promoting effect and reduces abiotic stress in agricultural crops. Builds up the population of beneficial microbes in the soil.",
+        "dose": "1 liter Racibax per acre (Soil application)",
+        "available_sizes": "1 liter, 5 liter"
+      },
+      "description": "RACIBÁX™ helps plants fight soil-borne diseases contributing to better utilization, uptake and availability of nutrients such as N, P and K.",
+      "certification": [
+        "Racifert Product",
+        "Consortium of Probiotic Micro-Organisms"
+      ],
+      "moq": "100 Litres",
+      "delivery_and_packaging": {
+        "delivery_time": "2 Weeks",
+        "packaging": "1 liter, 5 liter HDPE Bottles"
+      }
+    },
+    {
+      "category": "Chemicals & Fertilizers",
+      "sub_category": "Granular Vesicular-Arbuscular Mycorrhiza (VAM)",
+      "product_name": "RADIZONE GR™",
+      "product_img" : "/images/products/Radizone-GR.jpg",
+      "key_specifications": {
+        "active_ingredient": "Vesicular Arbuscular Mycorrhiza (VAM)",
+        "potency": "1200 IP per gm",
+        "formulation": "Granular",
+        "function": "Helps in the uptake of nutrients from the soil such as P, K and micronutrients from the lower part. Increases plant tolerance to various environmental stresses, salinity, and reduces disease incidence.",
+        "dose": "4 kg per acre (Application in the soil)",
+        "available_sizes": "4 kg"
+      },
+      "description": "RADIZONE GR™ increases plant tolerance for stronger and healthier plants, and helps maintain soil quality and nutrient cycling.",
+      "certification": [
+        "Racifert Product"
+      ],
+      "moq": "500 KG",
+      "delivery_and_packaging": {
+        "delivery_time": "3 Weeks",
+        "packaging": "4 kg Bags"
+      }
+    },
+    {
+      "category": "Agriculture",
+      "sub_category": "Biological Insecticide / Bio-Control Agent",
+      "product_name": "BEAVERIA-300 Pro™",
+      "product_img" : "/images/products/Beaveria-300.jpg",
+      "key_specifications": {
+        "active_microorganism": "Beauveria bassiana",
+        "powder_cfu": "5 x 10⁷ cfu/gm",
+        "liquid_cfu": "2 x 10⁹ cfu/ml",
+        "application_type": "Used as a biological insecticide to control a number of sucking pests and insects, such as termites, thrips, whiteflies, aphids, and different beetles. It is used in the control of mealy bug and sucking pests.",
+        "dose": "1 kg per acre (Drip / Soil / Slurry / Flood application)",
+        "available_sizes": "200 gm, 500 gm, 1 kg"
+      },
+      "description": "BEAVERIA-300 Pro is a biological insecticide.",
+      "certification": [
+        "Probiotic Micro Organism"
+      ],
+      "moq": "100 KG",
+      "delivery_and_packaging": {
+        "delivery_time": "3 Weeks",
+        "packaging": "200 gm, 500 gm, 1 kg Packs"
+      }
+    },
+    {
+      "category": "Chemicals & Fertilizers",
+      "sub_category": "Nitrogen Fixing Bio-Fertilizer",
+      "product_name": "ACETON PLUS™",
+      "key_specifications": {
+        "active_microorganism": "Acetobacter diazotrophicus",
+        "powder_cfu": "5 x 10⁷ cfu/gm",
+        "liquid_cfu": "2 x 10⁹ CFU/ml",
+        "application_type": "Forms colonies in plant tissue, makes nitrogen available for plant consumption and promotes plant growth and development.",
+        "dose_soil": "500 gm/acre (Drip / Soil / Flood application)",
+        "dose_seed_treatment": "500 gm/acre",
+        "available_sizes": "500 gm, 1 kg, 1 lit"
+      },
+      "description": "ACETON PLUS forms anti-fungal substances that protect plants from soil-borne diseases.",
+      "certification": [
+        "Probiotic Micro Organism"
+      ],
+      "moq": "100 Units",
+      "delivery_and_packaging": {
+        "delivery_time": "2 Weeks",
+        "packaging": "500 gm, 1 kg, 1 liter Packs"
+      }
+    },
+    {
+      "category": "Agriculture",
+      "sub_category": "Biological Insecticide / Bio-Control Agent",
+      "product_name": "META 151™",
+      "key_specifications": {
+        "active_microorganism": "Metarhizium anisopliae",
+        "powder_cfu": "5 x 10⁷ cfu/gm",
+        "liquid_cfu": "2 x 10⁹ CFU/ml",
+        "application_type": "Produces chitinase and protease enzymes and works against parasitic insecticides and acaridae for various insect pests that attack the cuticle layer of the insect body and kill them. It performs well against the Grubs.",
+        "dose": "1 kg per acre (Drip / Soil / Slurry / Flood application)",
+        "available_sizes": "1 kg"
+      },
+      "description": "META 151 is a biological insecticide.",
+      "certification": [
+        "Biotech Product",
+        "Biological Insecticides"
+      ],
+      "moq": "100 KG",
+      "delivery_and_packaging": {
+        "delivery_time": "3 Weeks",
+        "packaging": "1 kg Packs"
+      }
+    },
+    {
+      "category": "Chemicals & Fertilizers",
+      "sub_category": "Fulvic Acid Derivative / Growth Stimulant",
+      "product_name": "SUPER CHAMPION™",
+      "product_img" : "/images/products/Super Champion.jpg",
+      "key_specifications": {
+        "base_material": "Lignin (Organic product containing a derivative of fulvic acid)",
+        "function": "Higher efficiency in increasing flower initiation, fruit setting, and regenerating the dormant bud. Helps in reducing the flower dropping and increases the fruit quality and weight.",
+        "dose": "0.5 to 1gm per lit (Foliar application)",
+        "available_sizes": "100 gm"
+      },
+      "description": "SUPER CHAMPION is an organic product used as a plant stimulant to improve reproductive growth phases.",
+      "certification": [
+        "Organic Product"
+      ],
+      "moq": "100 Units",
+      "delivery_and_packaging": {
+        "delivery_time": "2 Weeks",
+        "packaging": "100 gm Pouches"
+      }
+    },
+    {
+      "category": "Chemicals & Fertilizers",
+      "sub_category": "Seaweed Botanical Extract / Plant Growth Promoter",
+      "product_name": "CHLORELLA™",
+      "product_img" : "/images/products/Chlorella.jpg",
+      "key_specifications": {
+        "base_material": "Sea weed base Botanical Extract (Ascophyllum nodosum)",
+        "function": "Increases the flower initiation and helps in preventing flower drooping. Increases the root development in plants and increases the cytokine level. Improves the water holding capacity.",
+        "dose_spray": "2.5 ml per lit of water (For vegetable & fruit crop)",
+        "dose_drip_application": "1 lit Chlorella per acre",
+        "available_sizes": "100 ml, 250 ml, 500 ml and 1 lit"
+      },
+      "description": "CHLORELLA is a special research product containing the seaweed extract of the plant in a proper ratio, which gives the best results in increasing the flower initiation.",
+      "certification": [
+        "Botanical Extract"
+      ],
+      "moq": "100 Litres",
+      "delivery_and_packaging": {
+        "delivery_time": "3 Weeks",
+        "packaging": "100 ml, 250 ml, 500 ml, 1 lit Bottles"
+      }
+    },
+    {
+      "category": "Agriculture",
+      "sub_category": "Microbial Consortium / Seed Treatment",
+      "product_name": "BEEJ-GRO™",
+      "product_img" : "/images/products/Beej GRO.jpg",
+      "key_specifications": {
+        "active_ingredient": "Consortium of beneficial organisms",
+        "formulation_type": "Seed Treatment Consortia",
+        "function": "Acts as a growth promoter for agriculture crops and also builds up the population of beneficial microbes in the soil. Used for suppression of various diseases caused by soil-borne fungal pathogens and increased the germination of field crops.",
+        "dose_beans": "200 ml/Acre",
+        "available_sizes": "50 ml, 100 ml and 200 ml"
+      },
+      "description": "BEEJ-GRO is a consortium of beneficial organisms designed for seed treatment applications.",
+      "certification": [
+        "Consortium Product"
+      ],
+      "moq": "200 Units",
+      "delivery_and_packaging": {
+        "delivery_time": "2 Weeks",
+        "packaging": "50 ml, 100 ml, 200 ml Bottles"
+      }
+    },
+    {
+      "category": "Agriculture",
+      "sub_category": "Microbial Consortium / Bio-Control Fungi",
+      "product_name": "VALIBIUM™",
+      "product_img" : "/images/products/Valibium.jpg",
+      "key_specifications": {
+        "active_ingredient": "Microbial consortium of beneficial fungi",
+        "liquid_cfu": "2 x 10⁹ cfu/gm min",
+        "function": "Acts as a parasite for various insect pests like fruit borer, bollworms, heliothis, Spodoptera, root grubs, shoot borer, caterpillars, mealy bug and sucking pest etc.",
+        "dose_soil_application": "500 gm ValiBiUM per acre",
+        "dose_foliar_application": "2 gm per lit of water",
+        "dose_stem_wash": "500 gm to 1 kg per acre (in grapes)",
+        "available_sizes": "500 gm and 1 kg"
+      },
+      "description": "VALIBIUM is a microbial consortium of beneficial fungi used as a biological pesticide to combat a wide range of agricultural insect pests through parasitic action.",
+      "certification": [
+        "Microbial Consortium"
+      ],
+      "moq": "100 KG",
+      "delivery_and_packaging": {
+        "delivery_time": "3 Weeks",
+        "packaging": "500 gm and 1 kg Packs"
+      }
+    },
+    {
+      "category": "Chemicals & Fertilizers",
+      "sub_category": "Microbial Consortium / Stress Reliever",
+      "product_name": "RELEBACT™",
+      "product_img" : "/images/products/Relebact.jpg",
+      "key_specifications": {
+        "active_ingredient": "Contains an effective strain of bacteria, fungi and mycorrhiza",
+        "function": "Protects agricultural crops from various pests and diseases caused by unfavourable climate changes. Fulfills the plants' nutrient availability to produce healthier plants and increase yield. Protects the plants from various abiotic stress.",
+        "dose": "1600 ml Relebact per acre",
+        "available_sizes": "400 ml, 800 ml and 1600 ml"
+      },
+      "description": "RELEBACT is a comprehensive microbial blend designed to be a multi-functional product, offering both protection from diseases and pests, and enhancing nutrient availability under stressful conditions.",
+      "certification": [
+        "Consortium Product"
+      ],
+      "moq": "100 Litres",
+      "delivery_and_packaging": {
+        "delivery_time": "2 Weeks",
+        "packaging": "400 ml, 800 ml, 1600 ml Bottles"
+      }
+    },
+    {
+      "category": "Chemicals & Fertilizers",
+      "sub_category": "Plant Growth Regulator (PGR) / L-Cysteine Derivative",
+      "product_name": "LAVER™",
+      "product_img" : "/images/products/Laver.jpg",
+      "key_specifications": {
+        "base_material": "L-Cystein derivatives",
+        "function": "Helps to increase the seed dormancy & faster germination. Also improves taste & quality of fruits. Improves efficiency of crop by stimulating the hormonal & enzymatic activities & increases the yield and quantity of the crop produce.",
+        "dose_spray": "0.75 ml to 1 ml/ltr of water",
+        "available_sizes": "250 ml & 500 ml"
+      },
+      "description": "LAVER™ is a product based on L-Cysteine derivatives that acts as a growth regulator and quality enhancer.",
+      "certification": [
+        "ISO 9001",
+        "CE Certified"
+      ],
+      "moq": "100 Units",
+      "delivery_and_packaging": {
+        "delivery_time": "2–3 Weeks",
+        "packaging": "Standard Export Cartons"
+      }
+    },
+     {
+      "category": "Pharmaceutical",
+      "sub_category": "API",
+      "product_name": "Ibuprofen Powder",
+      "key_specifications": {
+        "molecular_formula": "C₁₃H₁₈O₂",
+        "grade_standard": "USP, EP, BP Grade",
+        "appearance": "White or almost white crystalline powder",
+        "purity": "98.5% ~ 101.0% (on dried basis)",
+        "solubility": "Practically insoluble in water, freely soluble in acetone and ethanol.",
+        "melting_point": "75°C - 78°C",
+        "application_type": "Nonsteroidal Anti-inflammatory Drug (NSAID) for pain, fever, and inflammation relief."
+      },
+      "description": "Ibuprofen is a widely used Active Pharmaceutical Ingredient (API) belonging to the NSAID class. It functions by inhibiting the body's production of chemicals that cause inflammation and pain. The powder is suitable for manufacturing solid oral dosage forms like tablets, capsules, and suspensions, with different particle sizes available for specific formulation needs.",
+      "certification": [
+        "GMP Compliant",
+        "ISO 9001",
+        "Halal, Kosher"
+      ],
+      "moq": "25 KG",
+      "delivery_and_packaging": {
+        "delivery_time": "3–4 Weeks",
+        "packaging": "25 KG Fiber Drums with double inner polyethylene bags",
+        "packing_standard": "Pharm. Grade, Air-tight and Light-resistant"
+      }
+    },
+    {
+      "category": "Pharmaceutical",
+      "sub_category": "API",
+      "product_name": "Ketoprofen Powder",
+      "key_specifications": {
+        "molecular_formula": "C₁₆H₁₄O₃",
+        "grade_standard": "USP Grade",
+        "appearance": "White to almost white crystalline powder",
+        "purity": "NLT 98.5% and NMT 101.0% (on dried basis)",
+        "loss_on_drying": "NMT 0.5%",
+        "application_type": "NSAID used to treat pain, inflammation, swelling, and joint stiffness."
+      },
+      "description": "Ketoprofen is a potent NSAID used in both human and veterinary medicine, structurally related to ibuprofen. It is primarily formulated into capsules, extended-release tablets, and topical gels for pain management, especially for chronic conditions like arthritis. Its high purity ensures compliance with strict pharmacopoeial standards.",
+      "certification": [
+        "cGMP Certified",
+        "USP Compliant"
+      ],
+      "moq": "20 KG",
+      "delivery_and_packaging": {
+        "delivery_time": "2-3 Weeks (Ready Stock)",
+        "packaging": "10KG/20KG Drum Packing",
+        "packing_standard": "Sealed HDPE Drums, Moisture-protected"
+      }
+    },
+    {
+      "category": "Pharmaceutical",
+      "sub_category": "API",
+      "product_name": "Vitamin AD3 Powder",
+      "key_specifications": {
+        "vitamin_content": "A: 1,000,000 IU/g, D3: 200,000 IU/g",
+        "grade_standard": "Feed Grade",
+        "appearance": "Yellow to brown beadlets or powder",
+        "content_range": "100% ~ 120% of stated content",
+        "application_type": "Supports bone formation (D3), enhances vision, growth, and immune function (A). Used in animal feed."
+      },
+      "description": "A high-stability, synergistic blend of Vitamin A Acetate and Vitamin D3, essential for robust growth, skeletal development, and immune health in livestock, poultry, and aquaculture. The high concentration ensures efficacy even at low inclusion rates in feed premixes. Its beadlet form ensures optimal stability and bioavailability.",
+      "certification": [
+        "FAMI-QS Certified",
+        "ISO 22000"
+      ],
+      "moq": "500 KG",
+      "delivery_and_packaging": {
+        "delivery_time": "4 Weeks",
+        "packaging": "25 KG Multi-layer Paper Bags / HDPE Bags",
+        "packing_standard": "UV and Light-protected, Stored in cool, dry place"
+      }
+    },
+    {
+      "category": "Pharmaceutical",
+      "sub_category": "Binders & Fillers",
+      "product_name": "Microcrystalline Cellulose™",
+      "key_specifications": {
+        "available_grades": "PH 101, PH 102, PH 200",
+        "appearance": "White, odorless, tasteless powder",
+        "solubility": "Insoluble in water & most organic solvents",
+        "application_type": "Binder, filler, and disintegrant for tablets & capsules",
+        "moisture_content": "NMT 5.0%"
+      },
+      "description": "Microcrystalline Cellulose (MCC) is a purified, partially depolymerized cellulose widely used as a pharmaceutical excipient. It improves tablet compressibility, flow properties, and uniformity in solid dosage formulations. It is highly valued for direct compression due to its excellent binding capacity.",
+      "certification": [
+        "ISO 9001",
+        "CE Certified",
+        "RoHS Compliant",
+        "USP/NF, Ph.Eur., JP Compliant"
+      ],
+      "moq": "100 Units",
+      "delivery_and_packaging": {
+        "delivery_time": "2–3 Weeks",
+        "packaging": "25 KG HDPE Bags / Fiber Drums",
+        "packing_standard": "Export Standard Packing"
+      }
+    },
+    {
+      "category": "Pharmaceutical",
+      "sub_category": "Binders & Fillers",
+      "product_name": "Lactose Monohydrate (Crystalline)",
+      "key_specifications": {
+        "molecular_formula": "C₁₂H₂₂O₁₁·H₂O",
+        "grade_standard": "Ph.Eur., USP/NF Grade",
+        "appearance": "White or nearly white granular crystals/powder",
+        "solubility": "High solubility in water (Excellent for drug release)",
+        "function": "Diluent, filler, and carrier, especially for dry powder inhalers (DPIs)."
+      },
+      "description": "Lactose Monohydrate is a fundamental pharmaceutical excipient derived from milk. It provides superior compressibility and flowability, making it a staple for solid dosage forms like tablets and capsules. It is non-toxic, hypoallergenic, and compatible with a wide range of APIs, contributing to consistent dosing and stability.",
+      "certification": [
+        "ISO 9001",
+        "EXCiPACT Certification",
+        "Kosher and Halal Certified"
+      ],
+      "moq": "50 KG",
+      "delivery_and_packaging": {
+        "delivery_time": "3 Weeks",
+        "packaging": "25 KG/50 KG HDPE Drums with inner liner",
+        "packing_standard": "Pharmaceutical Export Standard, Moisture-resistant"
+      }
+    },
+    {
+      "category": "Pharmaceutical",
+      "sub_category": "Binders & Fillers",
+      "product_name": "Maize Starch (Native) Powder",
+      "key_specifications": {
+        "cas_number": "9005-25-8",
+        "grade_standard": "Food Grade / BP/USP Compliant (Native Starch B)",
+        "appearance": "Fine, white to slightly yellowish matte powder",
+        "moisture_content": "11.0% Max",
+        "function": "Binder (once cooked), disintegrant, and filler in tablets and capsules. Thickener in food."
+      },
+      "description": "A versatile excipient derived from maize, primarily used as a binder and disintegrant in pharmaceutical tableting, contributing to the structural integrity and timely break-up of the finished product. In the food industry, it is widely used as a natural thickener and stabilizer for sauces and beverages.",
+      "certification": [
+        "FSSC 22000 Certified",
+        "Non-GMO Available"
+      ],
+      "moq": "500 KG",
+      "delivery_and_packaging": {
+        "delivery_time": "2 Weeks",
+        "packaging": "25 KG / 50 KG PP Bags or Paper Bags",
+        "packing_standard": "Food & Pharma Standard, Secured from moisture"
+      }
+    },
+    {
+      "category": "Pharmaceutical",
+      "sub_category": "Lubricants & Glidants",
+      "product_name": "Magnesium Stearate NF",
+      "key_specifications": {
+        "cas_number": "557-04-0",
+        "grade_standard": "NF (National Formulary) Grade",
+        "appearance": "Fine, white, soapy powder",
+        "solubility": "Insoluble in water",
+        "usage_level": "Typically 0.25% to 1.0% w/w",
+        "function": "Reduces friction during tablet compression and improves powder flow."
+      },
+      "description": "A premium pharmaceutical lubricant essential for high-speed tablet manufacturing. It prevents powder mixtures from sticking to the die walls and punches, ensuring smooth tablet ejection and consistent weight uniformity. It is recognized as Generally Recognized As Safe (GRAS) by the FDA.",
+      "certification": [
+        "cGMP Compliant",
+        "GRAS Status (FDA)",
+        "EP/BP/USP Compliant"
+      ],
+      "moq": "25 KG",
+      "delivery_and_packaging": {
+        "delivery_time": "3 Weeks",
+        "packaging": "25 KG Fiber Drums",
+        "packing_standard": "Air-tight, Moisture-free Packaging"
+      }
+    },
+    {
+      "category": "Pharmaceutical",
+      "sub_category": "Lubricants & Glidants",
+      "product_name": "Aerosil 200 (Colloidal Silicon Dioxide)",
+      "key_specifications": {
+        "cas_number": "7631-86-9",
+        "grade_standard": "Pharma Grade (AEROSIL® 200 Pharma)",
+        "appearance": "Light, fluffy, amorphous, white powder",
+        "specific_surface_area": "175 – 225 m²/g (BET)",
+        "function": "Glidant, anti-caking agent, and viscosity control for liquid/semisolid systems."
+      },
+      "description": "A high-purity, hydrophilic fumed silica widely regarded as the industry standard glidant for solid dosage forms. It significantly improves powder flowability, preventing caking and optimizing tablet weight uniformity on high-speed presses. It also acts as a carrier for liquid actives and a thickener for gels/ointments.",
+      "certification": [
+        "ISO 9001",
+        "ICH Q3D Compliant",
+        "Universal Pharmacopoeia Compliant"
+      ],
+      "moq": "10 KG",
+      "delivery_and_packaging": {
+        "delivery_time": "4 Weeks",
+        "packaging": "10 KG/20 KG Multi-ply paper bags",
+        "packing_standard": "Original Manufacturer Packing, Protect from moisture and heat"
+      }
+    },
+    {
+      "category": "Pharmaceutical",
+      "sub_category": "Solvents & Carriers",
+      "product_name": "Propylene Glycol 99%",
+      "key_specifications": {
+        "molecular_formula": "C₃H₈O₂",
+        "grade_standard": "USP/EP/JP Grade",
+        "appearance": "Clear, colorless, viscous liquid; practically odorless",
+        "purity": "NLT 99.0%",
+        "solubility": "Miscible with water, ethanol, and various organic solvents.",
+        "function": "Solvent, co-solvent, humectant, and stabilizer in oral, topical, and injectable formulations."
+      },
+      "description": "High-purity Propylene Glycol (PG) is a critical excipient used as a solvent and vehicle for water-insoluble drugs in liquid and semi-solid dosage forms. Its low toxicity and excellent solvent properties make it a versatile agent for a wide range of pharmaceutical and cosmetic applications, ensuring product stability and bioavailability.",
+      "certification": [
+        "ISO 9001",
+        "REACH Compliant"
+      ],
+      "moq": "200 KG",
+      "delivery_and_packaging": {
+        "delivery_time": "1-2 Weeks",
+        "packaging": "200 KG HDPE/Metal Drums or IBC Totes",
+        "packing_standard": "Bulk Liquid Standard, Sealed for purity"
+      }
+    },
+    {
+      "category": "Pharmaceutical",
+      "sub_category": "Preservatives",
+      "product_name": "Sodium Benzoate (Pharma Grade)",
+      "key_specifications": {
+        "chemical_formula": "C₇H₅O₂Na",
+        "grade_standard": "BP Grade / Pharmaceutical Grade",
+        "appearance": "White, fine crystalline powder",
+        "solubility": "Highly soluble in water",
+        "pH_in_solution": "Approx. 8.0 (1% solution)",
+        "function": "Antimicrobial preservative, effective against fungi, yeasts, and bacteria in acidic environments."
+      },
+      "description": "Sodium Benzoate is an effective, water-soluble preservative used globally to inhibit microbial growth in pharmaceutical syrups, oral liquids, and acidic food products. Its compliance with pharmacopoeia specifications ensures its suitability for medicinal and pediatric applications. It is also used as a tablet lubricant in some formulations.",
+      "certification": [
+        "BP/EP/USP Compliant",
+        "FSSC 22000",
+        "E211 Food Additive Status"
+      ],
+      "moq": "25 KG",
+      "delivery_and_packaging": {
+        "delivery_time": "2 Weeks",
+        "packaging": "25 KG Lined Paper Bags or Fiber Drums",
+        "packing_standard": "Store at Room Temperature, Dry and Airtight"
+      }
+    },
+    {
+      "category": "Pharmaceutical",
+      "sub_category": "Preservatives",
+      "product_name": "Potassium Sorbate (Granular)",
+      "key_specifications": {
+        "chemical_formula": "C₆H₇KO₂",
+        "grade_standard": "FCC / E202 / Pharma Grade",
+        "appearance": "White to off-white granular crystals",
+        "purity": "99.0% ~ 101.0%",
+        "solubility": "Very soluble in water (58.2% at 20 °C)",
+        "function": "Inhibits molds, yeasts, and bacteria, primarily used to increase shelf life in liquids and dried products."
+      },
+      "description": "Potassium Sorbate is the potassium salt of Sorbic Acid, offering excellent solubility and potent antimicrobial activity, especially against fungi and yeasts. The granular form minimizes dusting and ensures easy, uniform blending in liquid formulations, dietary supplements, and food products like cheeses and dried fruits.",
+      "certification": [
+        "HACCP, Kosher, Halal Certified",
+        "EP/USP Compliant"
+      ],
+      "moq": "25 KG",
+      "delivery_and_packaging": {
+        "delivery_time": "3 Weeks",
+        "packaging": "25 KG Fiber Drums or Carton Boxes",
+        "packing_standard": "Moisture and Light Protected, Store in a cool, dry place"
+      }
+    },
+    {
+      "category": "Pharmaceutical",
+      "sub_category": "Preservatives",
+      "product_name": "Benzalkonium Chloride (BKC 50%)",
+      "key_specifications": {
+        "cas_number": "8001-54-5",
+        "grade_standard": "Pharma / Industrial Grade",
+        "appearance": "Clear, pale yellow solution",
+        "concentration": "49.0% w/v – 51.0% w/v",
+        "solubility": "Miscible with water; soluble in alcohols",
+        "function": "Potent cationic surfactant, disinfectant, sanitizer, and preservative."
+      },
+      "description": "Benzalkonium Chloride (BKC) 50% solution is a highly effective, broad-spectrum biocide. In pharmaceutical applications, it serves as an antiseptic and a preservative in eye drops and topical formulations. Industrially, it is crucial for water treatment and sanitation due to its potent antimicrobial properties against bacteria, fungi, and some viruses.",
+      "certification": [
+        "GMP Certified",
+        "ISO Certified",
+        "EP/USP Compliant"
+      ],
+      "moq": "50 KG",
+      "delivery_and_packaging": {
+        "delivery_time": "1-2 Weeks",
+        "packaging": "50 KG / 200 KG HDPE Barrels and Carbouys",
+        "packing_standard": "Store in a cool, dry place, away from incompatible substances"
+      }
+    }
+  ]
+}

@@ -1,4 +1,15 @@
+import { useNavigate } from "react-router-dom";
+
 export default function ServiceProductCard({ item }) {
+
+  const navigate = useNavigate();
+
+  const handleExplore = (category) => {
+    navigate("/exploreProduct", {
+      state: { category },
+    });
+  };
+
   return (
     <div className="relative group rounded-2xl overflow-hidden w-full max-w-[400px] transition-transform duration-300 hover:-translate-y-2">
       <div className="relative h-[200px] md:h-[420px] w-full">
@@ -26,6 +37,7 @@ export default function ServiceProductCard({ item }) {
                 src="/icons/arrow-up-right.svg"
                 alt="Global reach"
                 className="h-4 w-4 cursor-pointer"
+                onClick={() => handleExplore(item.title)}
               />
             </button>
           </div>

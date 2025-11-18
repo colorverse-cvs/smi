@@ -1,4 +1,18 @@
+import { useNavigate } from "react-router-dom";
+
 export default function HomeIntroBanner() {
+  const navigate = useNavigate();
+
+  const handleExplore = () => {
+    navigate("/exploreProduct", {
+      state: { category : '' },
+    });
+  };
+
+  const handleContact = () => {
+    navigate("/contact");
+  };
+
   return (
     <section className="pe-6 md:pe-0 w-full bg-white px-4 sm:px-6 md:px-10 lg:px-20 py-10 md:py-16 overflow-hidden">
       {/* Use column layout for mobile, row for desktop */}
@@ -18,10 +32,12 @@ export default function HomeIntroBanner() {
 
           {/* Buttons */}
           <div className="mt-8 flex flex-col sm:flex-row justify-center md:justify-start gap-4 sm:gap-5">
-            <button className="w-full sm:w-auto px-6 py-3 border border-blue-600 text-blue-600 font-medium rounded-lg hover:bg-blue-700 hover:text-white transition text-base cursor-pointer">
+            <button className="w-full sm:w-auto px-6 py-3 border border-blue-600 text-blue-600 font-medium rounded-lg hover:bg-blue-700 hover:text-white transition text-base cursor-pointer"
+                    onClick={handleExplore}>
               Explore products
             </button>
-            <button className="w-full sm:w-auto px-6 py-3 bg-blue-600 text-white font-medium rounded-lg flex items-center justify-center gap-2 hover:bg-blue-700 transition text-base cursor-pointer">
+            <button className="w-full sm:w-auto px-6 py-3 bg-blue-600 text-white font-medium rounded-lg flex items-center justify-center gap-2 hover:bg-blue-700 transition text-base cursor-pointer"
+                    onClick={handleContact}>
               Contact us
               <img
                 src="/icons/mail-icon.svg"
