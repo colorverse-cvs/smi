@@ -7,11 +7,12 @@ export default function ProductSpecification() {
   const location = useLocation();
   const { currentProduct } = location.state || {};
   const [selectedImage, setSelectedImage] = useState(
-    currentProduct?.image || "/placeholder.png"
+    currentProduct?.product_img || "/placeholder.png"
   );
 
   useEffect(() => {
   }, [currentProduct]);
+    console.log("currentProduct", currentProduct);
 
   if (!currentProduct) {
     return (
@@ -19,6 +20,7 @@ export default function ProductSpecification() {
         Product details not found.
       </div>
     );
+    
   }
 
   return (
@@ -42,9 +44,9 @@ export default function ProductSpecification() {
           </div>
 
           {/* Thumbnail Gallery */}
-          {currentProduct.images?.length > 0 && (
+          {currentProduct?.length > 0 && (
             <div className="flex flex-wrap justify-center gap-4 mt-4">
-              {currentProduct.images.map((img, i) => (
+              {currentProduct.map((img, i) => (
                 <div
                   key={i}
                   onClick={() => setSelectedImage(img)}
@@ -55,7 +57,7 @@ export default function ProductSpecification() {
                   }`}
                 >
                   <img
-                    src={img}
+                    src={img.product_img}
                     alt={`thumbnail-${i}`}
                     className="h-16 w-16 object-cover rounded-lg"
                   />
