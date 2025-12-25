@@ -13,9 +13,9 @@ export default function SimilarProductSection({ productCategory }) {
 
     // Filter products of same category and take only first 4
     const filtered = Data.product_catalog.filter((item) =>
-        item.category?.toLowerCase().trim() === productCategory?.toLowerCase().trim()
+      item.category?.toLowerCase().trim() === productCategory?.toLowerCase().trim()
     ).slice(0, 4);
-    
+
     setSimilarProducts(filtered);
   }, [productCategory]);
 
@@ -24,11 +24,11 @@ export default function SimilarProductSection({ productCategory }) {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
-    const handleExplore = () => {
-        navigate("/exploreProduct", {
-        state: { category },
-        });
-    };
+  const handleExplore = () => {
+    navigate("/exploreProduct", {
+      state: { category },
+    });
+  };
 
 
   if (similarProducts.length === 0) return null;
@@ -42,9 +42,9 @@ export default function SimilarProductSection({ productCategory }) {
           <h2 className="text-2xl font-semibold text-gray-800">
             Similar Products
           </h2>
-            <button className="text-[#077CEB] text-sm hover:underline"
-                onClick={handleExplore}
-            >
+          <button className="text-[#077CEB] text-sm hover:underline"
+            onClick={handleExplore}
+          >
             View All →
           </button>
         </div>
@@ -58,7 +58,7 @@ export default function SimilarProductSection({ productCategory }) {
             >
               <div className="h-40 w-40 flex items-center justify-center bg-gray-50 rounded-md mb-4">
                 <img
-                  src={p.product_img || "/placeholder.png"}
+                  src={p.product_img || "/images/products/placeholder.jpg"}
                   alt={p.product_name}
                   className="h-32 w-32 object-contain"
                 />
