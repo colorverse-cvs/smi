@@ -2,17 +2,20 @@ import { useLocation } from "react-router-dom";
 import { useEffect, useState } from "react";
 
 import SmiliarProductSection from './SimilarProduct';
+import QuoteSidePanel from '../../GetQuote/Sections/QuoteSidePanel';
+
 
 export default function ProductSpecification() {
   const location = useLocation();
   const { currentProduct } = location.state || {};
   const [selectedImage, setSelectedImage] = useState(
-    currentProduct?.product_img || "/placeholder.png"
+    currentProduct?.product_img || "/images/products/placeholder.jpg"
   );
+  const [isDrawerOpen, setIsDrawerOpen] = useState(false);
 
   useEffect(() => {
   }, [currentProduct]);
-    console.log("currentProduct", currentProduct);
+  // console.log("currentProduct", currentProduct);
 
   if (!currentProduct) {
     return (
@@ -20,7 +23,7 @@ export default function ProductSpecification() {
         Product details not found.
       </div>
     );
-    
+
   }
 
   return (
@@ -35,7 +38,7 @@ export default function ProductSpecification() {
         {/* LEFT: Product Images */}
         <div className="md:w-1/2 flex flex-col items-center">
           {/* Main Image */}
-          <div className="border rounded-2xl p-6 bg-white shadow-sm w-full flex justify-center">
+          <div className="border border-transparent hover:border-[#077CEB] rounded-2xl p-6 bg-white shadow-sm w-full flex justify-center transition-all duration-200">
             <img
               src={selectedImage}
               alt={currentProduct.product_name}
@@ -50,11 +53,10 @@ export default function ProductSpecification() {
                 <div
                   key={i}
                   onClick={() => setSelectedImage(img)}
-                  className={`border rounded-xl p-1 cursor-pointer transition ${
-                    selectedImage === img
-                      ? "border-[#077CEB]"
-                      : "border-gray-200 hover:border-[#077CEB]"
-                  }`}
+                  className={`border rounded-xl p-1 cursor-pointer transition ${selectedImage === img
+                    ? "border-[#077CEB]"
+                    : "border-gray-200 hover:border-[#077CEB]"
+                    }`}
                 >
                   <img
                     src={img.product_img}
@@ -73,36 +75,39 @@ export default function ProductSpecification() {
             <h1 className="text-2xl font-semibold text-gray-800">
               {currentProduct.product_name}
             </h1>
-            <button className="bg-[#077CEB] hover:bg-[#0666c2] text-white text-sm px-5 py-2 rounded-lg flex items-center gap-2 transition">
+            <button
+              onClick={() => setIsDrawerOpen(true)}
+              className="bg-[#077CEB] hover:bg-[#0666c2] text-white text-sm px-5 py-2 rounded-lg flex items-center gap-2 transition"
+            >
               Get a Quote →
             </button>
           </div>
 
-         {/* Key Specifications */}
-            {currentProduct.key_specifications && (
+          {/* Key Specifications */}
+          {currentProduct.key_specifications && (
             <div className="mt-6">
-                <h2 className="font-semibold mb-1">Key Specifications</h2>
+              <h2 className="font-semibold mb-1">Key Specifications</h2>
 
-                {typeof currentProduct.key_specifications === "string" ? (
+              {typeof currentProduct.key_specifications === "string" ? (
                 <p className="text-gray-600 text-sm leading-relaxed whitespace-pre-line">
-                    {currentProduct.key_specifications}
+                  {currentProduct.key_specifications}
                 </p>
-                ) : (
+              ) : (
                 <ul className="text-gray-600 text-sm space-y-1">
-                    {Object.entries(currentProduct.key_specifications).map(
+                  {Object.entries(currentProduct.key_specifications).map(
                     ([key, value], index) => (
-                        <li key={index} className="flex">
+                      <li key={index} className="flex">
                         <span className="font-medium capitalize mr-1">
-                            {key.replace(/_/g, " ")}:
+                          {key.replace(/_/g, " ")}:
                         </span>
                         <span>{value}</span>
-                        </li>
+                      </li>
                     )
-                    )}
+                  )}
                 </ul>
-                )}
+              )}
             </div>
-            )}
+          )}
 
 
           {/* Description */}
@@ -137,37 +142,43 @@ export default function ProductSpecification() {
             </div>
           )}
 
-            {/* Delivery & Packaging */}
+          {/* Delivery & Packaging */}
 
-            {currentProduct.delivery_and_packaging && (
+          {currentProduct.delivery_and_packaging && (
             <div className="mt-6">
-                <h2 className="font-semibold mb-1">Delivery & Packaging</h2>
+              <h2 className="font-semibold mb-1">Delivery & Packaging</h2>
 
-                {currentProduct.delivery_and_packaging.delivery_time && (
+              {currentProduct.delivery_and_packaging.delivery_time && (
                 <p className="text-gray-600 text-sm">
-                    <span className="font-medium">Delivery Time:</span>{" "}
-                    {currentProduct.delivery_and_packaging.delivery_time}
+                  <span className="font-medium">Delivery Time:</span>{" "}
+                  {currentProduct.delivery_and_packaging.delivery_time}
                 </p>
-                )}
+              )}
 
-                {currentProduct.delivery_and_packaging.packaging && (
+              {currentProduct.delivery_and_packaging.packaging && (
                 <p className="text-gray-600 text-sm">
-                    <span className="font-medium">Packaging:</span>{" "}
-                    {currentProduct.delivery_and_packaging.packaging}
+                  <span className="font-medium">Packaging:</span>{" "}
+                  {currentProduct.delivery_and_packaging.packaging}
                 </p>
-                )}
+              )}
 
-                {currentProduct.delivery_and_packaging.packing_standard && (
+              {currentProduct.delivery_and_packaging.packing_standard && (
                 <p className="text-gray-600 text-sm">
-                    <span className="font-medium">Packing Standard:</span>{" "}
-                    {currentProduct.delivery_and_packaging.packing_standard}
+                  <span className="font-medium">Packing Standard:</span>{" "}
+                  {currentProduct.delivery_and_packaging.packing_standard}
                 </p>
-                )}
+              )}
             </div>
-            )}
+          )}
         </div>
       </div>
       <SmiliarProductSection productCategory={currentProduct.category} />
+      {/* Quote Drawer */}
+      <QuoteSidePanel
+        isOpen={isDrawerOpen}
+        onClose={() => setIsDrawerOpen(false)}
+        productData={currentProduct}
+      />
     </div>
   );
 }
